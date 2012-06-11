@@ -29,7 +29,7 @@ public class MainActivity extends Activity
     @LongClick( R.id.mytextview )
     public void resetTextView()
     {
-        textview.setText( "Reseted :)" );
+        textview.setText( "Reset :)" );
     }
 
 }
