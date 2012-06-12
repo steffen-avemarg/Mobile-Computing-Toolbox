@@ -3,10 +3,8 @@ package de.emgress;
 import android.app.Activity;
 import android.content.Intent;
 import android.util.Log;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
-import android.widget.Toast;
 import com.googlecode.androidannotations.annotations.*;
 
 @EActivity(R.layout.main)
@@ -48,10 +46,13 @@ public class MainActivity extends Activity
         return true;
     }
 
-    @OptionsItem( R.id.menu_item_02 )
-    public void handleMenuOptions( MenuItem menuItem )
+    @OptionsItem
+    public boolean switchToViewPagerExample()
     {
-        Toast.makeText( this, "Menu Item: " + menuItem.getTitle(), Toast.LENGTH_SHORT ).show();
+        Intent i = new Intent( this, ViewPagerExample_.class);
+        startActivity( i );
+
+        return true;
     }
 
 }

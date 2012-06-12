@@ -112,9 +112,8 @@ public final class MainActivity_
         switch (item.getItemId()) {
             case id.switchToBackgroundExample:
                 return switchToBackgroundExample();
-            case id.menu_item_02 :
-                handleMenuOptions(item);
-                return true;
+            case id.switchToViewPagerExample:
+                return switchToViewPagerExample();
             default:
                 return false;
         }

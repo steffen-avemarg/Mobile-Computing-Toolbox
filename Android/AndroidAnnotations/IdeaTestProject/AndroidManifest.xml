@@ -13,5 +13,6 @@
             </intent-filter>
         </activity>
         <activity android:name=".BackgroundExampleActivity_"/>
+        <activity android:name=".ViewPagerExample_"/>
     </application>
 </manifest>
