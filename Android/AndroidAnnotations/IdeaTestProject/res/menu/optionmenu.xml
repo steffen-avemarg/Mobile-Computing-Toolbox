@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/switchToBackgroundExample" android:title="Switch to Background Example" />
+    <item android:id="@+id/menu_item_02" android:title="Item 2" />
+</menu>

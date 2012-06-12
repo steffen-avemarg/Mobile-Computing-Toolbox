@@ -8,9 +8,9 @@ package de.emgress;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.KeyEvent;
-import android.view.View;
+import android.view.*;
 import android.view.View.OnClickListener;
+import android.view.View.OnLongClickListener;
 import android.view.ViewGroup.LayoutParams;
 import android.widget.TextView;
 import com.googlecode.androidannotations.api.SdkVersionHelper;
@@ -48,6 +48,22 @@ public final class MainActivity_
                 );
             }
         }
+        {
+            View view = findViewById(id.mytextview);
+            if (view!= null) {
+                view.setOnLongClickListener(new OnLongClickListener() {
+
+
+                    public boolean onLongClick(View view) {
+                        resetTextView();
+                        return true;
+                    }
+
+                }
+                );
+            }
+        }
+        configureViews();
     }
 
     @Override
@@ -78,6 +94,30 @@ public final class MainActivity_
 
     public static MainActivity_.IntentBuilder_ intent(Context context) {
         return new MainActivity_.IntentBuilder_(context);
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater menuInflater = getMenuInflater();
+        menuInflater.inflate(de.emgress.R.menu.optionmenu, menu);
+        return super.onCreateOptionsMenu(menu);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        boolean handled = super.onOptionsItemSelected(item);
+        if (handled) {
+            return true;
+        }
+        switch (item.getItemId()) {
+            case id.switchToBackgroundExample:
+                return switchToBackgroundExample();
+            case id.menu_item_02 :
+                handleMenuOptions(item);
+                return true;
+            default:
+                return false;
+        }
     }
 
     public static class IntentBuilder_ {

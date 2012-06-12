@@ -19,9 +19,9 @@
       <entry name="?*.ftl" />
     </wildcardResourcePatterns>
     <annotationProcessing enabled="true" useClasspath="false">
-      <processorPath value="$PROJECT_DIR$/../../Frameworks/androidannotations-2.5.1/androidannotations-2.5.1.jar" />
+      <processorPath value="$PROJECT_DIR$/libs/androidannotations-2.5.1.jar" />
       <processor name="com.googlecode.androidannotations.AndroidAnnotationProcessor" options="" />
-      <processModule name="AATestProject" generatedDirName="aa-gen" />
+      <processModule name="IdeaTestProject" generatedDirName="aa-gen" />
     </annotationProcessing>
   </component>
 </project>
