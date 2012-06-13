@@ -110,10 +110,10 @@ public final class MainActivity_
             return true;
         }
         switch (item.getItemId()) {
-            case id.switchToBackgroundExample:
-                return switchToBackgroundExample();
             case id.switchToViewPagerExample:
                 return switchToViewPagerExample();
+            case id.switchToBackgroundExample:
+                return switchToBackgroundExample();
             default:
                 return false;
         }

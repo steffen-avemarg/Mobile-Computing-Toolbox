@@ -13,8 +13,7 @@ public class PagerFragment extends Fragment
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
     {
-        View myView = inflater.inflate(R.layout.background_example, container);
+        View myView = inflater.inflate(R.layout.background_example, null);
         return  myView;
-
     }
 }

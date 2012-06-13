@@ -49,7 +49,7 @@ public class MainActivity extends Activity
     @OptionsItem
     public boolean switchToViewPagerExample()
     {
-        Intent i = new Intent( this, ViewPagerExample_.class);
+        Intent i = new Intent( this, ViewPagerTitleExample_.class);
         startActivity( i );
 
         return true;
