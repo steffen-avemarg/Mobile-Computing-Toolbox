@@ -41,13 +41,13 @@ public final class BackgroundExampleActivity_
         statusTextView = ((TextView) findViewById(id.statusTextView));
         progressBar = ((ProgressBar) findViewById(id.progressBar));
         {
-            View view = findViewById(id.resetProcess);
+            View view = findViewById(id.startProcess);
             if (view!= null) {
                 view.setOnClickListener(new OnClickListener() {
 
 
                     public void onClick(View view) {
-                        resetProcess();
+                        startProcess();
                     }
 
                 }
@@ -69,13 +69,13 @@ public final class BackgroundExampleActivity_
             }
         }
         {
-            View view = findViewById(id.startProcess);
+            View view = findViewById(id.resetProcess);
             if (view!= null) {
                 view.setOnClickListener(new OnClickListener() {
 
 
                     public void onClick(View view) {
-                        startProcess();
+                        resetProcess();
                     }
 
                 }
@@ -116,14 +116,14 @@ public final class BackgroundExampleActivity_
     }
 
     @Override
-    public void setText(final String text) {
+    public void notifyUser(final String msg) {
         handler_.post(new Runnable() {
 
 
             @Override
             public void run() {
                 try {
-                    BackgroundExampleActivity_.super.setText(text);
+                    BackgroundExampleActivity_.super.notifyUser(msg);
                 } catch (RuntimeException e) {
                     Log.e("BackgroundExampleActivity_", "A runtime exception was thrown while executing code in a runnable", e);
                 }
@@ -134,14 +134,14 @@ public final class BackgroundExampleActivity_
     }
 
     @Override
-    public void notifyUser(final String msg) {
+    public void setText(final String text) {
         handler_.post(new Runnable() {
 
 
             @Override
             public void run() {
                 try {
-                    BackgroundExampleActivity_.super.notifyUser(msg);
+                    BackgroundExampleActivity_.super.setText(text);
                 } catch (RuntimeException e) {
                     Log.e("BackgroundExampleActivity_", "A runtime exception was thrown while executing code in a runnable", e);
                 }

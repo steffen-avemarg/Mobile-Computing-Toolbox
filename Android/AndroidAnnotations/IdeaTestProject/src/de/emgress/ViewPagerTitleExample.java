@@ -19,9 +19,14 @@ import com.googlecode.androidannotations.annotations.EActivity;
 import com.googlecode.androidannotations.annotations.ViewById;
 
 
+/**
+ * This Activity demonstrates the usage of a ViewPager combined
+ * with Tabs in the ActionBar to create a Google Play Store like
+ * effect of sliding pages.
+ */
 @EActivity( R.layout.view_pager_example )
-public class ViewPagerTitleExample extends FragmentActivity {
-
+public class ViewPagerTitleExample extends FragmentActivity
+{
 	/**
 	 * A simple array holding the titles of the different Tabs
 	 * respectively Pages
@@ -253,7 +258,7 @@ public class ViewPagerTitleExample extends FragmentActivity {
 
 		/**
 		 * The last method that gets called during the creation of a fragment
-		 * simply adds an adapter to the ListView using the {@see listStrings}
+		 * simply adds an adapter to the ListView using the <code>listStrings</code>
 		 * array as content.
 		 *
 		 * @param savedInstanceState

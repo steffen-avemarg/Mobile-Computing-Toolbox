@@ -2,7 +2,6 @@
 <project version="4">
   <component name="AnalysisUIOptions">
     <option name="ANALYZE_TEST_SOURCES" value="false" />
-    <option name="SCOPE_TYPE" value="8" />
     <option name="CUSTOM_SCOPE_NAME" value="My Doc Scope" />
   </component>
   <component name="AndroidConfiguredLogFilters">
@@ -32,25 +31,68 @@
     <option name="TOOL_WINDOW_LOG_LEVEL" value="INFO" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="527947a2-4a96-47d1-96d0-551230a74f94" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/android-support-v13.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aa-gen/de/emgress/ViewPagerExample_.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aa-gen/de/emgress/ViewPagerTitleExample_.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/fragment_pager_list.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/de/emgress/TabListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/de/emgress/ViewPagerTitleExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+    <list default="true" id="527947a2-4a96-47d1-96d0-551230a74f94" name="Default" comment="Added Doc">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/resources/inherit.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/allclasses-frame.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/allclasses-noframe.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/constant-values.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/de/emgress/BackgroundExampleActivity.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/de/emgress/BackgroundExampleActivity_.IntentBuilder_.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/de/emgress/BackgroundExampleActivity_.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/de/emgress/BuildConfig.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/de/emgress/MainActivity.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/de/emgress/MainActivity_.IntentBuilder_.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/de/emgress/MainActivity_.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/de/emgress/PagerFragment.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/de/emgress/R.attr.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/de/emgress/R.drawable.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/de/emgress/R.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/de/emgress/R.id.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/de/emgress/R.layout.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/de/emgress/R.menu.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/de/emgress/R.string.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/de/emgress/TabListener.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/de/emgress/ViewPagerExample.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/de/emgress/ViewPagerExample_.IntentBuilder_.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/de/emgress/ViewPagerExample_.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/de/emgress/ViewPagerTitleExample.ArrayListFragment.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/de/emgress/ViewPagerTitleExample.MyPageChangeListener.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/de/emgress/ViewPagerTitleExample.ViewPagerFragmentAdapter.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/de/emgress/ViewPagerTitleExample.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/de/emgress/ViewPagerTitleExample_.IntentBuilder_.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/de/emgress/ViewPagerTitleExample_.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/de/emgress/package-frame.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/de/emgress/package-summary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/de/emgress/package-tree.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/deprecated-list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/help-doc.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/index-files/index-1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/index-files/index-10.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/index-files/index-11.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/index-files/index-12.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/index-files/index-13.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/index-files/index-14.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/index-files/index-15.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/index-files/index-16.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/index-files/index-17.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/index-files/index-18.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/index-files/index-2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/index-files/index-3.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/index-files/index-4.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/index-files/index-5.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/index-files/index-6.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/index-files/index-7.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/index-files/index-8.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/index-files/index-9.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/overview-tree.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/package-list" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/stylesheet.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aa-gen/de/emgress/BackgroundExampleActivity_.java" afterPath="$PROJECT_DIR$/aa-gen/de/emgress/BackgroundExampleActivity_.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aa-gen/de/emgress/MainActivity_.java" afterPath="$PROJECT_DIR$/aa-gen/de/emgress/MainActivity_.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/de/emgress/R.java" afterPath="$PROJECT_DIR$/gen/de/emgress/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project.properties" afterPath="$PROJECT_DIR$/project.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/menu/optionmenu.xml" afterPath="$PROJECT_DIR$/res/menu/optionmenu.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/emgress/MainActivity.java" afterPath="$PROJECT_DIR$/src/de/emgress/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/emgress/PagerFragment.java" afterPath="$PROJECT_DIR$/src/de/emgress/PagerFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/emgress/ViewPagerExample.java" afterPath="$PROJECT_DIR$/src/de/emgress/ViewPagerExample.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/emgress/ViewPagerTitleExample.java" afterPath="$PROJECT_DIR$/src/de/emgress/ViewPagerTitleExample.java" />
     </list>
     <ignored path="TestAndroidProject.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -113,13 +155,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ViewPagerTitleExample.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ViewPagerTitleExample.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/de/emgress/ViewPagerTitleExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="256" column="45" selection-start="7816" selection-end="7816" vertical-scroll-proportion="0.72868216">
+            <state line="169" column="0" selection-start="5495" selection-end="5495" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainActivity.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/docs/de/emgress/MainActivity.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="107" column="73" selection-start="4514" selection-end="4514" vertical-scroll-proportion="0.34879032">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -646,7 +697,11 @@
       <created>1339513862971</created>
       <updated>1339513862971</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Finished View Pager with Tabs Example">
+      <created>1339602467800</created>
+      <updated>1339602467800</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -683,13 +738,13 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934928" sideWeight="0.07686782" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20264901" sideWeight="0.44352844" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32811213" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3008739" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3008739" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.70411986" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934928" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2413793" sideWeight="0.18476903" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2413793" sideWeight="0.12858926" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297414" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43226686" sideWeight="0.6727273" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2413793" sideWeight="0.8064919" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2413793" sideWeight="0.56179774" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5168539" sideWeight="0.91810346" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -735,7 +790,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Second Activity with a Background Task Example" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Doc" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -751,6 +806,8 @@
     <MESSAGE value="Added LongClick Annotation to TextView" />
     <MESSAGE value="Typo" />
     <MESSAGE value="Added Second Activity with a Background Task Example" />
+    <MESSAGE value="Finished View Pager with Tabs Example" />
+    <MESSAGE value="Added Doc" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -760,22 +817,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/de/emgress/PagerFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="10" selection-start="455" selection-end="455" vertical-scroll-proportion="0.35123968">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../../android-sdk-macosx/platforms/android-15/android.jar!/android/os/Looper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="0" selection-start="1026" selection-end="1026" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../../../../android-sdk-macosx/platforms/android-15/android.jar!/android/os/Handler.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="79" column="0" selection-start="3526" selection-end="3526" vertical-scroll-proportion="0.0">
@@ -871,12 +912,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/android/support/v4/app/FragmentPagerAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="22" selection-start="169" selection-end="169" vertical-scroll-proportion="0.082530946">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/de/emgress/ViewPagerTitleExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="256" column="45" selection-start="7816" selection-end="7816" vertical-scroll-proportion="0.72868216">
+        <state line="169" column="0" selection-start="5495" selection-end="5495" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/de/emgress/MainActivity.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="107" column="73" selection-start="4514" selection-end="4514" vertical-scroll-proportion="0.34879032">
+          <folding />
         </state>
       </provider>
     </entry>
