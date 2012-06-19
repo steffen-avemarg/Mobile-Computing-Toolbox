@@ -36,23 +36,41 @@ public class MainActivity extends Activity
         textview.setText( "Reset :)" );
     }
 
+    private boolean switchTo( Class requestedClass )
+    {
+        Intent i = new Intent( this, requestedClass );
+        startActivity( i );
+        return true;
+    }
+
 
     @OptionsItem
     public boolean switchToBackgroundExample()
     {
-        Intent i = new Intent( this, BackgroundExampleActivity_.class);
-        startActivity( i );
-
-        return true;
+        return switchTo( BackgroundExampleActivity_.class );
     }
 
     @OptionsItem
     public boolean switchToViewPagerExample()
     {
-        Intent i = new Intent( this, ViewPagerTitleExample_.class);
-        startActivity( i );
-
-        return true;
+        return switchTo( ViewPagerTitleExample_.class );
     }
 
+    @OptionsItem
+    public boolean switchToAccelerometerExample()
+    {
+        return switchTo( AccelerometerActivity.class );
+    }
+
+    @OptionsItem
+    public boolean switchToCompassExample()
+    {
+        return switchTo( CompassActivity.class );
+    }
+
+    @OptionsItem
+    public boolean switchToCameraIntentExample()
+    {
+        return switchTo( CameraCallActivity_.class );
+    }
 }

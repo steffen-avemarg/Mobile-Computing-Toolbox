@@ -14,23 +14,34 @@ public final class R {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-        public static final int button=0x7f060007;
-        public static final int mytextview=0x7f060006;
-        public static final int progressBar=0x7f060001;
-        public static final int resetProcess=0x7f060004;
-        public static final int startProcess=0x7f060002;
-        public static final int statusTextView=0x7f060000;
-        public static final int stopProcess=0x7f060003;
-        public static final int switchToBackgroundExample=0x7f060009;
-        public static final int switchToViewPagerExample=0x7f06000a;
-        public static final int text=0x7f060005;
-        public static final int viewpager=0x7f060008;
+        public static final int accel_layout=0x7f060000;
+        public static final int accel_textview=0x7f060001;
+        public static final int button=0x7f06000d;
+        public static final int imageTaken=0x7f060007;
+        public static final int mytextview=0x7f06000c;
+        public static final int progressBar=0x7f060003;
+        public static final int resetProcess=0x7f060006;
+        public static final int rotateLeft=0x7f060008;
+        public static final int rotateRight=0x7f060009;
+        public static final int startProcess=0x7f060004;
+        public static final int statusTextView=0x7f060002;
+        public static final int stopProcess=0x7f060005;
+        public static final int switchToAccelerometerExample=0x7f060010;
+        public static final int switchToBackgroundExample=0x7f06000f;
+        public static final int switchToCameraIntentExample=0x7f060012;
+        public static final int switchToCompassExample=0x7f060011;
+        public static final int switchToViewPagerExample=0x7f060013;
+        public static final int takePicture=0x7f06000a;
+        public static final int text=0x7f06000b;
+        public static final int viewpager=0x7f06000e;
     }
     public static final class layout {
-        public static final int background_example=0x7f030000;
-        public static final int fragment_pager_list=0x7f030001;
-        public static final int main=0x7f030002;
-        public static final int view_pager_example=0x7f030003;
+        public static final int accelerometer=0x7f030000;
+        public static final int background_example=0x7f030001;
+        public static final int camera_result=0x7f030002;
+        public static final int fragment_pager_list=0x7f030003;
+        public static final int main=0x7f030004;
+        public static final int view_pager_example=0x7f030005;
     }
     public static final class menu {
         public static final int optionmenu=0x7f050000;

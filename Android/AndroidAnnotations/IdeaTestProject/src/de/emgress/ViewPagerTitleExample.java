@@ -31,7 +31,8 @@ public class ViewPagerTitleExample extends FragmentActivity
 	 * A simple array holding the titles of the different Tabs
 	 * respectively Pages
 	 */
-	private static final String[] tabNames = { "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten" };
+	private static final String[] tabNames = { "One", "Two", "Three", "Four", "Five",
+            "Six", "Seven", "Eight", "Nine", "Ten" };
 
 	/**
 	 * A reference to the Adapter used for the ViewPager. The class is

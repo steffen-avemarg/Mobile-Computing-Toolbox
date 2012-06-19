@@ -3,6 +3,13 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:id="@+id/switchToBackgroundExample"
 		  android:title="Background Example" />
+    <item android:id="@+id/switchToAccelerometerExample"
+          android:title="Accelerometer Example" />
+    <item android:id="@+id/switchToCompassExample"
+          android:title="Compass Example" />
+    <item android:id="@+id/switchToCameraIntentExample"
+          android:title="Camera Intent Example" />
+
     <item android:id="@+id/switchToViewPagerExample"
 		  android:title="View Pager"
 		  android:showAsAction="ifRoom" />

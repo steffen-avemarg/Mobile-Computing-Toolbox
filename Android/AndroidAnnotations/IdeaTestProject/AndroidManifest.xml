@@ -17,5 +17,9 @@
         <activity android:name=".BackgroundExampleActivity_"/>
         <activity android:name=".ViewPagerExample_"/>
 		<activity android:name=".ViewPagerTitleExample_"/>
-	</application>
+        <activity android:name=".CompassActivity"/>
+        <activity android:name=".CameraCallActivity_"/>
+        <activity android:name=".AccelerometerActivity"/>
+    </application>
+
 </manifest>
