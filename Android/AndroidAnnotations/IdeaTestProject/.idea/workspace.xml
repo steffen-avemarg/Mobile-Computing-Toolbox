@@ -38,7 +38,23 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="CurrentApp" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="527947a2-4a96-47d1-96d0-551230a74f94" name="Default" comment="Added Doc" />
+    <list default="true" id="527947a2-4a96-47d1-96d0-551230a74f94" name="Default" comment="Added Doc">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/anim/block_move_right.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/anim/drop_block.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/anim/layout_animation.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/anim/tower_glow.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/tween_example.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/de/emgress/TweenExample.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aa-gen/de/emgress/BackgroundExampleActivity_.java" afterPath="$PROJECT_DIR$/aa-gen/de/emgress/BackgroundExampleActivity_.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aa-gen/de/emgress/MainActivity_.java" afterPath="$PROJECT_DIR$/aa-gen/de/emgress/MainActivity_.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/de/emgress/R.java" afterPath="$PROJECT_DIR$/gen/de/emgress/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/menu/optionmenu.xml" afterPath="$PROJECT_DIR$/res/menu/optionmenu.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/emgress/MainActivity.java" afterPath="$PROJECT_DIR$/src/de/emgress/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/emgress/ViewPagerExample.java" afterPath="$PROJECT_DIR$/src/de/emgress/ViewPagerExample.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/emgress/ViewPagerTitleExample.java" afterPath="$PROJECT_DIR$/src/de/emgress/ViewPagerTitleExample.java" />
+    </list>
     <ignored path="TestAndroidProject.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -100,28 +116,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="CameraCallActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/de/emgress/CameraCallActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="29" selection-start="1884" selection-end="1884" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AccelerometerActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/de/emgress/AccelerometerActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="67" selection-start="1157" selection-end="1157" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="MainActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/de/emgress/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="89" selection-start="806" selection-end="806" vertical-scroll-proportion="0.12790698">
+            <state line="22" column="66" selection-start="496" selection-end="496" vertical-scroll-proportion="0.32945737">
               <folding />
             </state>
           </provider>
@@ -158,11 +156,11 @@
         <option value="$PROJECT_DIR$/src/de/emgress/CompassView.java" />
         <option value="$PROJECT_DIR$/src/de/emgress/CompassActivity.java" />
         <option value="$PROJECT_DIR$/res/menu/optionmenu.xml" />
-        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/src/de/emgress/MainActivity.java" />
         <option value="$PROJECT_DIR$/src/de/emgress/CameraCallActivity.java" />
         <option value="$PROJECT_DIR$/res/layout/camera_result.xml" />
         <option value="$PROJECT_DIR$/src/de/emgress/AccelerometerActivity.java" />
+        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/src/de/emgress/MainActivity.java" />
       </list>
     </option>
   </component>
@@ -202,20 +200,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IdeaTestProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IdeaTestProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
@@ -314,6 +298,20 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IdeaTestProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IdeaTestProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -334,11 +332,11 @@
     <property name="KeystoreLocation" value="$USER_HOME$/.android/debug.keystore" />
     <property name="KeyAlias" value="androiddebugkey" />
     <property name="AndroidTargetDevices" value="373164D6962B00EC" />
-    <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -395,6 +393,24 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -420,24 +436,6 @@
       <envs />
       <properties />
       <listeners />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
@@ -618,16 +616,16 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3273632" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.49220672" sideWeight="0.6762797" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283582" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26364943" sideWeight="0.2971286" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26364943" sideWeight="0.30337077" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297414" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43226686" sideWeight="0.6727273" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26364943" sideWeight="0.6941323" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28383923" sideWeight="0.9978261" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26364943" sideWeight="0.6878901" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28339577" sideWeight="0.9978261" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30869564" sideWeight="0.7161608" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283582" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29942575" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29837704" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2576792" sideWeight="0.997009" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -733,11 +731,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/de/emgress/CompassView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="86" selection-start="953" selection-end="953" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state line="34" column="86" selection-start="953" selection-end="953" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/de/emgress/CompassActivity.java">
@@ -750,13 +744,6 @@
     <entry file="file://$PROJECT_DIR$/res/menu/optionmenu.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="39" selection-start="501" selection-end="501" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="32" selection-start="1087" selection-end="1087" vertical-scroll-proportion="0.38343558">
           <folding />
         </state>
       </provider>
@@ -782,16 +769,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ant.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="77" selection-start="398" selection-end="398" vertical-scroll-proportion="0.15503876">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/de/emgress/AccelerometerActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="67" selection-start="1157" selection-end="1157" vertical-scroll-proportion="0.0">
+        <state line="39" column="67" selection-start="1157" selection-end="1157" vertical-scroll-proportion="0.6007752">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/de/emgress/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="89" selection-start="806" selection-end="806" vertical-scroll-proportion="0.12790698">
+        <state line="22" column="66" selection-start="496" selection-end="496" vertical-scroll-proportion="0.32945737">
           <folding />
         </state>
       </provider>

@@ -13,4 +13,8 @@
     <item android:id="@+id/switchToViewPagerExample"
 		  android:title="View Pager"
 		  android:showAsAction="ifRoom" />
+	<item android:id="@+id/switchToTweenExample"
+		  android:title="Tween"
+		  android:showAsAction="ifRoom" />
+
 </menu>

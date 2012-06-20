@@ -68,9 +68,21 @@ public class MainActivity extends Activity
         return switchTo( CompassActivity.class );
     }
 
+
     @OptionsItem
     public boolean switchToCameraIntentExample()
     {
         return switchTo( CameraCallActivity_.class );
     }
+
+	@OptionsItem
+	public boolean switchToTweenExample()
+	{
+		Intent i = new Intent( this, TweenExample_.class);
+		startActivity( i );
+
+		return true;
+	}
+
+
 }
