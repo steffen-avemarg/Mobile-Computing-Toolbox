@@ -7,7 +7,7 @@ import java.net.Socket;
 
 public class Client
 {
-    private static String DEVICE_IP = "192.168.178.43";
+    private static String DEVICE_IP = "127.0.0.1";
 
 
     public static void main(String[] args)
@@ -16,7 +16,7 @@ public class Client
 
         try
         {
-            socket = new java.net.Socket( DEVICE_IP, 1234 );
+            socket = new java.net.Socket( DEVICE_IP, 5000 );
             socket.setSoTimeout(1000 * 5);
 
             System.out.println( "Socket: " + socket.getRemoteSocketAddress() );

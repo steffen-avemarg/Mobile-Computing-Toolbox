@@ -45,7 +45,7 @@ public class MainActivity extends Activity
             {
                 Log.i( "SocketConnection", "Create Server Socket" );
 
-                serverSocket = new ServerSocket( 1234, 0 );
+                serverSocket = new ServerSocket( 6000, 0 );
 
                 Log.i( "SocketConnection", "Server Socket created - Timeout 5 sek" );
 
