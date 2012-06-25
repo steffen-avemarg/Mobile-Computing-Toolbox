@@ -20,6 +20,6 @@
         <activity android:name=".CompassActivity"/>
         <activity android:name=".CameraCallActivity_"/>
         <activity android:name=".AccelerometerActivity"/>
-    </application>
-
+		<activity android:name=".TweenExample_"/>
+	</application>
 </manifest>

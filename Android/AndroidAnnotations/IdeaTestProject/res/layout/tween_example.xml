@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			  android:orientation="horizontal"
+			  android:layout_width="fill_parent"
+			  android:layout_height="fill_parent"
+			  android:gravity="bottom|center_horizontal" >
+
+	<LinearLayout android:id="@+id/tower_01"
+				  android:layout_weight="1"
+				  android:layout_height="fill_parent"
+				  android:layout_width="fill_parent"
+				  android:background="#FFEEDDDD"
+				  android:orientation="vertical"
+				  android:gravity="bottom|center_horizontal"
+				  android:layoutAnimation="@anim/layout_animation" >
+
+		<TextView android:id="@+id/block_01"
+				  android:layout_height="wrap_content"
+				  android:layout_width="70sp"
+				  android:background="#FF884488"
+				  android:gravity="center"
+				  android:text="1"/>
+		<TextView
+				android:id="@+id/block_2"
+				android:layout_width="100sp"
+				android:background="#FF444488"
+				android:layout_height="wrap_content"
+				android:gravity="center"
+				android:text="2"/>
+		<TextView
+				android:id="@+id/block_3"
+				android:layout_width="130sp"
+				android:background="#FF884444"
+				android:layout_height="wrap_content"
+				android:gravity="center"
+				android:text="3"/>
+
+	</LinearLayout>
+	<LinearLayout android:id="@+id/tower_02"
+				  android:layout_weight="1"
+				  android:layout_height="fill_parent"
+				  android:layout_width="fill_parent"
+				  android:background="#FFDDEEDD"
+				  android:gravity="bottom|center_horizontal"
+				  android:orientation="vertical"/>
+	<LinearLayout android:id="@+id/tower_03"
+				  android:layout_weight="1"
+				  android:layout_height="fill_parent"
+				  android:layout_width="fill_parent"
+				  android:background="#FFDDDDEE"
+				  android:gravity="bottom|center_horizontal"
+				  android:orientation="vertical"/>
+
+</LinearLayout>

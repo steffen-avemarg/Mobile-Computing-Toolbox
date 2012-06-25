@@ -39,12 +39,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="527947a2-4a96-47d1-96d0-551230a74f94" name="Default" comment="Added Doc">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/accelerometer.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/camera_result.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/de/emgress/AccelerometerActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/de/emgress/CameraCallActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/de/emgress/CompassActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/de/emgress/CompassView.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/anim/block_move_right.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/anim/drop_block.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/anim/layout_animation.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/anim/tower_glow.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/tween_example.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/de/emgress/TweenExample.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aa-gen/de/emgress/BackgroundExampleActivity_.java" afterPath="$PROJECT_DIR$/aa-gen/de/emgress/BackgroundExampleActivity_.java" />
@@ -52,6 +52,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/de/emgress/R.java" afterPath="$PROJECT_DIR$/gen/de/emgress/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/menu/optionmenu.xml" afterPath="$PROJECT_DIR$/res/menu/optionmenu.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/emgress/MainActivity.java" afterPath="$PROJECT_DIR$/src/de/emgress/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/emgress/ViewPagerExample.java" afterPath="$PROJECT_DIR$/src/de/emgress/ViewPagerExample.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/emgress/ViewPagerTitleExample.java" afterPath="$PROJECT_DIR$/src/de/emgress/ViewPagerTitleExample.java" />
     </list>
     <ignored path="TestAndroidProject.iws" />
@@ -115,30 +116,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="CameraCallActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/de/emgress/CameraCallActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="29" selection-start="1908" selection-end="1908" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AccelerometerActivity.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/de/emgress/AccelerometerActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="67" selection-start="1142" selection-end="1142" vertical-scroll-proportion="0.25167784">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="MainActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/de/emgress/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="89" selection-start="835" selection-end="835" vertical-scroll-proportion="0.0">
+            <state line="22" column="66" selection-start="496" selection-end="496" vertical-scroll-proportion="0.32945737">
               <folding />
             </state>
           </provider>
@@ -175,11 +156,11 @@
         <option value="$PROJECT_DIR$/src/de/emgress/CompassView.java" />
         <option value="$PROJECT_DIR$/src/de/emgress/CompassActivity.java" />
         <option value="$PROJECT_DIR$/res/menu/optionmenu.xml" />
-        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/src/de/emgress/MainActivity.java" />
         <option value="$PROJECT_DIR$/src/de/emgress/CameraCallActivity.java" />
         <option value="$PROJECT_DIR$/res/layout/camera_result.xml" />
         <option value="$PROJECT_DIR$/src/de/emgress/AccelerometerActivity.java" />
+        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/src/de/emgress/MainActivity.java" />
       </list>
     </option>
   </component>
@@ -190,10 +171,8 @@
     <scope name="My Doc Scope" pattern="src:de.emgress.ViewPagerExample||src:de.emgress.ViewPagerTitleExample||src:de.emgress.TabListener||src:de.emgress.PagerFragment||src:de.emgress.MainActivity||src:de.emgress.BackgroundExampleActivity" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1099" />
-    <option name="y" value="22" />
-    <option name="width" value="1428" />
-    <option name="height" value="1340" />
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -230,9 +209,6 @@
             </PATH_ELEMENT>
           </PATH>
         </subPane>
-      </pane>
-      <pane id="PackagesPane">
-        <subPane />
       </pane>
       <pane id="ProjectPane">
         <subPane>
@@ -318,6 +294,20 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="layout" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IdeaTestProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IdeaTestProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -613,29 +603,29 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1099" y="22" width="1428" height="1340" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32893652" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283046" sideWeight="0.74232084" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30869564" sideWeight="0.7161608" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283582" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24982981" sideWeight="0.33212122" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.45074627" sideWeight="0.3186734" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20264901" sideWeight="0.44352844" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3273632" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29942575" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.49220672" sideWeight="0.6762797" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283582" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2637681" sideWeight="0.292863" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26364943" sideWeight="0.30337077" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297414" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43226686" sideWeight="0.6727273" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2637681" sideWeight="0.70139456" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28383923" sideWeight="0.9978261" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26364943" sideWeight="0.6878901" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28339577" sideWeight="0.9978261" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30869564" sideWeight="0.7161608" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283582" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29837704" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2576792" sideWeight="0.997009" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -722,9 +712,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/docs/de/emgress/MainActivity.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="107" column="73" selection-start="4514" selection-end="4514" vertical-scroll-proportion="0.01305483">
-          <folding />
-        </state>
+        <state line="107" column="73" selection-start="4514" selection-end="4514" vertical-scroll-proportion="0.01305483" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/de/emgress/ViewPagerTitleExample.java">
@@ -743,11 +731,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/de/emgress/CompassView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="86" selection-start="953" selection-end="953" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state line="34" column="86" selection-start="953" selection-end="953" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/de/emgress/CompassActivity.java">
@@ -764,30 +748,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="32" selection-start="1087" selection-end="1087" vertical-scroll-proportion="0.38343558">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aa-gen/de/emgress/CameraCallActivity_.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="19" selection-start="502" selection-end="502" vertical-scroll-proportion="-0.5644172">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/aa-gen/de/emgress/MainActivity_.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="125" column="81" selection-start="3624" selection-end="3624" vertical-scroll-proportion="0.6625767">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/de/emgress/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="89" selection-start="835" selection-end="835" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -801,16 +764,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/de/emgress/CameraCallActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="29" selection-start="1908" selection-end="1908" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="60" column="29" selection-start="1884" selection-end="1884" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ant.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="77" selection-start="398" selection-end="398" vertical-scroll-proportion="0.15503876">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/de/emgress/AccelerometerActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="67" selection-start="1142" selection-end="1142" vertical-scroll-proportion="0.25167784">
+        <state line="39" column="67" selection-start="1157" selection-end="1157" vertical-scroll-proportion="0.6007752">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/emgress/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="66" selection-start="496" selection-end="496" vertical-scroll-proportion="0.32945737">
           <folding />
         </state>
       </provider>

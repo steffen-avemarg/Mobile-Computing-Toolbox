@@ -168,7 +168,7 @@ public class ViewPagerTitleExample extends FragmentActivity
 	 * need a reference to the ActionBar. It's only purpose is to create and
 	 * supply the different pages for the ViewPager!
 	 */
-	public static class ViewPagerFragmentAdapter extends FragmentPagerAdapter {
+	class ViewPagerFragmentAdapter extends FragmentPagerAdapter {
 		ActionBar mActionBar;
 
 		public ViewPagerFragmentAdapter(FragmentManager fm)

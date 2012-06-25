@@ -27,12 +27,10 @@ public class ViewPagerExample extends FragmentActivity
 
             @Override
             public int getCount() {
-                return 10;  //To change body of implemented methods use File | Settings | File Templates.
+                return 10;
             }
         };
 
         pagerView.setAdapter( adapter );
-
     }
-
 }

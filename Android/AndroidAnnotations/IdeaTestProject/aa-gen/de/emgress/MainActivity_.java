@@ -110,16 +110,18 @@ public final class MainActivity_
             return true;
         }
         switch (item.getItemId()) {
-            case id.switchToCameraIntentExample:
-                return switchToCameraIntentExample();
             case id.switchToAccelerometerExample:
                 return switchToAccelerometerExample();
+            case id.switchToTweenExample:
+                return switchToTweenExample();
             case id.switchToViewPagerExample:
                 return switchToViewPagerExample();
-            case id.switchToCompassExample:
-                return switchToCompassExample();
+            case id.switchToCameraIntentExample:
+                return switchToCameraIntentExample();
             case id.switchToBackgroundExample:
                 return switchToBackgroundExample();
+            case id.switchToCompassExample:
+                return switchToCompassExample();
             default:
                 return false;
         }
