@@ -225,16 +225,16 @@ public class MainActivity extends Activity
 
         for( int groupCounter = 1; groupCounter <= 25; groupCounter++ )
         {
-            GroupClass group = new GroupClass( "Gruppe " + groupCounter );
+            GroupClass group = new GroupClass( "Group " + groupCounter );
 
             // Just a little trick to get a different number of children per group
             int numberOfChildren = (23 % groupCounter) + 2 ;
 
             for( int childCounter = 0; childCounter < numberOfChildren; childCounter++ )
             {
-                ChildClass child = new ChildClass( "Kind " + childCounter , "Text für Kind " + childCounter +
-                        " Text für Kind " + childCounter + " Text für Kind " + childCounter +
-                        " Text für Kind " + childCounter + " Text für Kind " + childCounter);
+                ChildClass child = new ChildClass( "Child " + childCounter , "Text for Child " + childCounter +
+                        " Text for Child " + childCounter + " Text for Child " + childCounter +
+                        " Text for Child " + childCounter + " Text for Child " + childCounter);
 
                 group.addChild( child );
             }
