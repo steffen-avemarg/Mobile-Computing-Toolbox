@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+	android:id="@+id/main_layout" >
+
+	<TextView
+		android:id="@+id/text_view"
+		android:background="#33cccc"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+		android:gravity="center"
+		android:padding="20dp"
+    	android:text="Animated Text" />
+
+	<Button
+		android:id="@+id/object_animator"
+		android:text="Object Animator"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"/>
+
+	<Button
+			android:id="@+id/animator_set"
+			android:text="Animator Set"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"/>
+
+	<Button
+			android:id="@+id/xml_animators"
+			android:text="XML Animators"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"/>
+
+	<Button
+			android:id="@+id/property_value_holders"
+			android:text="Property Value Holders"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"/>
+
+	<Button
+			android:id="@+id/view_properties_animation"
+			android:text="View Properties Animation"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"/>
+
+	<Button
+			android:id="@+id/type_evaluators"
+			android:text="Type Evaluators"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"/>
+
+	<Button
+			android:id="@+id/layout_transitions"
+			android:text="Layout Transistions"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"/>
+
+</LinearLayout>
+
