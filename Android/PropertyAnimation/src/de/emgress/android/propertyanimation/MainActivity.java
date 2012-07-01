@@ -99,16 +99,23 @@ public class MainActivity extends Activity
 
 		private void handleObjectAnimator()
 		{
-			float toAlpha;
-
-			if( animatedView.getAlpha() != 0 )
-				toAlpha = 0f;
-			else
-				toAlpha = 1f;
+			float toAlpha = (animatedView.getAlpha() != 0) ? 0f : 1f;
 
 			ObjectAnimator fader =
 					ObjectAnimator.ofFloat( animatedView, "alpha", toAlpha );
 			fader.setDuration( ANIMATION_DURATION );
+
+			fader.addUpdateListener( new ValueAnimator.AnimatorUpdateListener()
+			{
+				@Override
+				public void onAnimationUpdate(ValueAnimator valueAnimator)
+				{
+					float value = (Float)valueAnimator.getAnimatedValue();
+					animatedView.setText( "Value: " + value );
+
+				}
+			});
+
 			fader.start();
 		}
 
@@ -239,7 +246,7 @@ public class MainActivity extends Activity
 			Animator appearAnimator = lt.getAnimator( LayoutTransition.DISAPPEARING );
 			lt.setDuration( ANIMATION_DURATION );
 
-			appearAnimator.setTarget( animatedView );
+			appearAnimator.setTarget(animatedView);
 
 			appearAnimator.start();
 		}
@@ -265,7 +272,6 @@ public class MainActivity extends Activity
 			);
 		}
 	}
-
 
 	/**
 	 * Helper Class for the Type Evaluator Example
