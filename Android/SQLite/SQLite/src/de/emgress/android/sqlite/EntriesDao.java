@@ -1,7 +1,6 @@
 package de.emgress.android.sqlite;
 
 import android.content.ContentValues;
-import android.content.Context;
 import android.database.Cursor;
 import android.database.SQLException;
 import android.database.sqlite.SQLiteDatabase;
@@ -21,9 +20,9 @@ public class EntriesDao
 	private MySQLHelper sqlHelper;
 	private String[] allColumns = { COLUMN_ID, COLUMN_VALUE };
 	
-	public EntriesDao( Context cxt )
+	public EntriesDao( MySQLHelper helper )
 	{
-		this.sqlHelper = new MySQLHelper( cxt );
+		this.sqlHelper = helper;
 	}
 	
 	public static void onCreate( SQLiteDatabase db )

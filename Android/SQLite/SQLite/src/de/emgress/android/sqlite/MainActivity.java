@@ -20,14 +20,13 @@ public class MainActivity extends Activity implements OnClickListener
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
-        
-        // Add Click Listener to both Buttons
+
         Button addButton = (Button)findViewById( R.id.add_button );
         Button deleteButton = (Button)findViewById( R.id.delete_button );
         addButton.setOnClickListener( this );
         deleteButton.setOnClickListener( this );
     
-        entries = new EntriesDao( this );
+        entries = new EntriesDao( new MySQLHelper( this ) );
         entries.open();
         
         Cursor cursor = entries.getAllEntries();
@@ -41,7 +40,7 @@ public class MainActivity extends Activity implements OnClickListener
     }
 
 	@Override
-	public void onClick(View v) 
+	public void onClick( View v )
 	{
 		
 		ListView lv = (ListView)findViewById( R.id.entries );
@@ -57,14 +56,8 @@ public class MainActivity extends Activity implements OnClickListener
 			if( lv.getAdapter().getCount() > 0 )
 			{
 				Cursor item = (Cursor)lv.getAdapter().getItem( 0 );
-				
 				long itemId = item.getLong( 0 );
-				
-				Log.i( "ITEM ID: " ,  "" + itemId );
-				
 				this.entries.removeEntry( itemId );
-				
-				
 			}
 		}
 		
