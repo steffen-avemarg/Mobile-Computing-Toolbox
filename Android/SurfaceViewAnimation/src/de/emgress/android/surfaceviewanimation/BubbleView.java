@@ -63,16 +63,15 @@ public class BubbleView extends SurfaceView implements SurfaceHolder.Callback
 
 	}
 
-	public void randomlyAddBubbles(
-			int screenWidth,
-			int screenHeight)
+	public void randomlyAddBubbles( int screenWidth, int screenHeight )
 	{
 		if ( Math.random() > BUBBLE_FREQUENCY ) return;
 
 		bubbles.add(
 				new Bubble(
 						(int) ( screenWidth * Math.random() ),
-						screenHeight + Bubble.RADIUS,
+                        (int) ( screenHeight + 15 ),
+						(int) ( 15 * Math.random() ),
 						(int) ( Bubble.MAX_SPEED * Math.random() )
 				));
 	}
