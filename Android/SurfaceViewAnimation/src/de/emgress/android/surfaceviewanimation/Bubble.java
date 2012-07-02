@@ -19,7 +19,7 @@ public class Bubble
 		paint.setAntiAlias( true );
 	}
 
-    public static final int MAX_RADIUS = 15;
+    public static final int MAX_RADIUS = 20;
     public static final int MIN_RADIUS = 5;
 	public static final int MAX_SPEED = 10;
 	public static final int MIN_SPEED = 1;

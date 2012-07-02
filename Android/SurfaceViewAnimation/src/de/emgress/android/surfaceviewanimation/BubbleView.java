@@ -13,6 +13,7 @@ import java.util.ArrayList;
 public class BubbleView extends SurfaceView implements SurfaceHolder.Callback
 {
 	private float BUBBLE_FREQUENCY = 0.3f;
+    private float NUMBER_OF_BUBBLES_PER_FRAME = 2;
 
 	private ArrayList<Bubble> bubbles = new ArrayList<Bubble>();
 	private Paint backgroundPaint = new Paint();
@@ -45,7 +46,8 @@ public class BubbleView extends SurfaceView implements SurfaceHolder.Callback
 
 	private void calculateDisplay(Canvas c)
 	{
-		randomlyAddBubbles( c.getWidth(), c.getHeight() );
+        for( int i = 0; i < NUMBER_OF_BUBBLES_PER_FRAME; i++ )
+            randomlyAddBubbles( c.getWidth(), c.getHeight() );
 
 		ArrayList<Bubble> bubblesToRemove = new ArrayList<Bubble>();
 
@@ -70,8 +72,8 @@ public class BubbleView extends SurfaceView implements SurfaceHolder.Callback
 		bubbles.add(
 				new Bubble(
 						(int) ( screenWidth * Math.random() ),
-                        (int) ( screenHeight + 15 ),
-						(int) ( 15 * Math.random() ),
+                        (int) ( screenHeight + Bubble.MAX_RADIUS ),
+						(int) ( Bubble.MAX_RADIUS * Math.random() ),
 						(int) ( Bubble.MAX_SPEED * Math.random() )
 				));
 	}
