@@ -13,6 +13,7 @@ import java.util.ArrayList;
 public class BubbleView extends SurfaceView implements SurfaceHolder.Callback
 {
 	private float BUBBLE_FREQUENCY = 0.3f;
+    private float NUMBER_OF_BUBBLES_PER_FRAME = 2;
 
 	private ArrayList<Bubble> bubbles = new ArrayList<Bubble>();
 	private Paint backgroundPaint = new Paint();
@@ -21,35 +22,36 @@ public class BubbleView extends SurfaceView implements SurfaceHolder.Callback
 	private GameLoop gameLoop;
 
 
-	public BubbleView(Context context, AttributeSet attrs)
+	public BubbleView( Context context, AttributeSet attrs )
 	{
 		super(context, attrs);
 		getHolder().addCallback( this );
 		backgroundPaint.setColor( Color.BLUE );
 	}
 
-	private void drawScreen(Canvas c)
+	private void drawScreen( Canvas c )
 	{
 		c.drawRect(
 				0,
 				0,
 				c.getWidth(),
 				c.getHeight(),
-				backgroundPaint);
+				backgroundPaint );
 
-		for (Bubble bubble : bubbles)
+		for ( Bubble bubble : bubbles )
 		{
 			bubble.draw( c );
 		}
 	}
 
-	private void calculateDisplay(Canvas c)
+	private void calculateDisplay( Canvas c )
 	{
-		randomlyAddBubbles( c.getWidth(), c.getHeight() );
+        for( int i = 0; i < NUMBER_OF_BUBBLES_PER_FRAME; i++ )
+            randomlyAddBubbles( c.getWidth(), c.getHeight() );
 
 		ArrayList<Bubble> bubblesToRemove = new ArrayList<Bubble>();
 
-		for (Bubble bubble : bubbles)
+		for ( Bubble bubble : bubbles )
 		{
 			bubble.move();
 
@@ -60,19 +62,17 @@ public class BubbleView extends SurfaceView implements SurfaceHolder.Callback
 		}
 
 		this.bubbles.removeAll( bubblesToRemove );
-
 	}
 
-	public void randomlyAddBubbles(
-			int screenWidth,
-			int screenHeight)
+	public void randomlyAddBubbles( int screenWidth, int screenHeight )
 	{
 		if ( Math.random() > BUBBLE_FREQUENCY ) return;
 
 		bubbles.add(
 				new Bubble(
 						(int) ( screenWidth * Math.random() ),
-						screenHeight + Bubble.RADIUS,
+                        (int) ( screenHeight + Bubble.MAX_RADIUS ),
+						(int) ( Bubble.MAX_RADIUS * Math.random() ),
 						(int) ( Bubble.MAX_SPEED * Math.random() )
 				));
 	}
@@ -95,16 +95,19 @@ public class BubbleView extends SurfaceView implements SurfaceHolder.Callback
 				try
 				{
 					canvas = surfaceHolder.lockCanvas();
-					synchronized (surfaceHolder)
+
+                    if( canvas == null ) continue;
+
+					synchronized ( surfaceHolder )
 					{
-						calculateDisplay(canvas);
-						drawScreen(canvas);
+						calculateDisplay( canvas );
+						drawScreen( canvas );
 					}
 				}
 				finally
 				{
-					if (canvas != null)
-						surfaceHolder.unlockCanvasAndPost(canvas);
+					if ( canvas != null )
+						surfaceHolder.unlockCanvasAndPost( canvas );
 
 				}
 
@@ -118,13 +121,13 @@ public class BubbleView extends SurfaceView implements SurfaceHolder.Callback
 			frameTime += msPerFrame;
 			nextSleep = frameTime - System.currentTimeMillis();
 
-			if (nextSleep > 0)
+			if ( nextSleep > 0 )
 			{
 				try
 				{
-					sleep(nextSleep);
+					sleep( nextSleep );
 				}
-				catch (InterruptedException e) {}
+				catch ( InterruptedException e ) {}
 			}
 		}
 	}
@@ -134,7 +137,7 @@ public class BubbleView extends SurfaceView implements SurfaceHolder.Callback
 	{
 		synchronized (this)
 		{
-			if (gameLoop == null)
+			if ( gameLoop == null )
 			{
 				gameLoop = new GameLoop();
 			}
@@ -148,7 +151,7 @@ public class BubbleView extends SurfaceView implements SurfaceHolder.Callback
 		synchronized (this)
 		{
 			boolean retry = true;
-			if (gameLoop != null)
+			if ( gameLoop != null )
 			{
 				gameLoop.running = false;
 
@@ -159,7 +162,7 @@ public class BubbleView extends SurfaceView implements SurfaceHolder.Callback
 						gameLoop.join();
 						retry = false;
 					}
-					catch (InterruptedException e)	{}
+					catch ( InterruptedException e )	{}
 				}
 			}
 
@@ -172,17 +175,22 @@ public class BubbleView extends SurfaceView implements SurfaceHolder.Callback
 	 *
 	 */
 	@Override
-	public void surfaceCreated(SurfaceHolder surfaceHolder)
+	public void surfaceCreated( SurfaceHolder surfaceHolder )
 	{
 		this.surfaceHolder = surfaceHolder;
 		startAnimation();
 	}
 
 	@Override
-	public void surfaceChanged(SurfaceHolder surfaceHolder, int i, int i1, int i2) {}
+	public void surfaceChanged( SurfaceHolder surfaceHolder, int format, int width, int height )
+    {
+        stopAnimation();
+        this.surfaceHolder = surfaceHolder;
+        startAnimation();
+    }
 
 	@Override
-	public void surfaceDestroyed(SurfaceHolder surfaceHolder)
+	public void surfaceDestroyed( SurfaceHolder surfaceHolder )
 	{
 		stopAnimation();
 	}
