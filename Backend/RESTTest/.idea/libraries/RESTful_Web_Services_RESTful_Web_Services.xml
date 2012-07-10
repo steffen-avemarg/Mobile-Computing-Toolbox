@@ -5,9 +5,6 @@
       <root url="jar://$PROJECT_DIR$/lib/asm-3.3.1.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/FastInfoset-1.2.12.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/grizzly-servlet-webserver-1.9.36.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/jackson-core-asl-1.8.3.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/jackson-jaxrs-1.8.3.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/jackson-mapper-asl-1.8.3.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/jaxb-api-2.2.4.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/jaxb-impl-2.2.4-1.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/jdom-1.0.jar!/" />
@@ -25,6 +22,10 @@
       <root url="jar://$PROJECT_DIR$/lib/wadl2java.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/wadl-cmdline.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/wadl-core.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jackson-xc-1.9.8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jackson-core-asl-1.9.8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jackson-jaxrs-1.9.8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jackson-mapper-asl-1.9.8.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

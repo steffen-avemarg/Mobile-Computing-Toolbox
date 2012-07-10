@@ -8,10 +8,26 @@
     <servlet>
         <servlet-name>MyRestApplication</servlet-name>
         <servlet-class>com.sun.jersey.spi.container.servlet.ServletContainer</servlet-class>
+
+        <!-- Enable simple POJO Mapping to JSON/XML -->
+        <init-param>
+        	<param-name>com.sun.jersey.api.json.POJOMappingFeature</param-name>
+        	<param-value>true</param-value>
+        </init-param>
+
+        <!-- Defines the Package in which Jersey will look for Resources-->
+        <init-param>
+              <param-name>com.sun.jersey.config.property.packages</param-name>
+              <param-value>de.emgress.backend.rest.resources</param-value>
+        </init-param>
+
         <load-on-startup>1</load-on-startup>
+
     </servlet>
     <servlet-mapping>
         <servlet-name>MyRestApplication</servlet-name>
         <url-pattern>/resources/*</url-pattern>
     </servlet-mapping>
+
+
 </web-app>
