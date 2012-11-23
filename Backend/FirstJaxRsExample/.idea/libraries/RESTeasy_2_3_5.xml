@@ -1,0 +1,74 @@
+<component name="libraryTable">
+  <library name="RESTeasy 2.3.5">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../resteasy-jaxrs-2.3.5.Final/lib/activation-1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../resteasy-jaxrs-2.3.5.Final/lib/aopalliance-1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../resteasy-jaxrs-2.3.5.Final/lib/apache-mime4j-0.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../resteasy-jaxrs-2.3.5.Final/lib/async-http-jbossweb-2.3.5.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../resteasy-jaxrs-2.3.5.Final/lib/async-http-servlet-3.0-2.3.5.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../resteasy-jaxrs-2.3.5.Final/lib/async-http-tomcat6-2.3.5.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../resteasy-jaxrs-2.3.5.Final/lib/bcmail-jdk16-1.46.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../resteasy-jaxrs-2.3.5.Final/lib/bcprov-jdk16-1.46.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../resteasy-jaxrs-2.3.5.Final/lib/commons-codec-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../resteasy-jaxrs-2.3.5.Final/lib/commons-httpclient-3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../resteasy-jaxrs-2.3.5.Final/lib/commons-io-1.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../resteasy-jaxrs-2.3.5.Final/lib/commons-logging-1.0.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../resteasy-jaxrs-2.3.5.Final/lib/el-api-1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../resteasy-jaxrs-2.3.5.Final/lib/FastInfoset-1.2.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../resteasy-jaxrs-2.3.5.Final/lib/guice-2.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../resteasy-jaxrs-2.3.5.Final/lib/httpclient-4.1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../resteasy-jaxrs-2.3.5.Final/lib/httpcore-4.1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../resteasy-jaxrs-2.3.5.Final/lib/jackson-core-asl-1.9.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../resteasy-jaxrs-2.3.5.Final/lib/jackson-jaxrs-1.9.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../resteasy-jaxrs-2.3.5.Final/lib/jackson-mapper-asl-1.9.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../resteasy-jaxrs-2.3.5.Final/lib/jackson-xc-1.9.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../resteasy-jaxrs-2.3.5.Final/lib/javassist-3.8.0.GA.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../resteasy-jaxrs-2.3.5.Final/lib/jaxb-api-2.2.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../resteasy-jaxrs-2.3.5.Final/lib/jaxb-impl-2.2.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../resteasy-jaxrs-2.3.5.Final/lib/jaxrs-api-2.3.5.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../resteasy-jaxrs-2.3.5.Final/lib/jboss-common-core-2.2.14.GA.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../resteasy-jaxrs-2.3.5.Final/lib/jboss-el-1.0_02.CR4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../resteasy-jaxrs-2.3.5.Final/lib/jboss-logging-spi-2.0.5.GA.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../resteasy-jaxrs-2.3.5.Final/lib/jboss-transaction-api-1.0.1.GA.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../resteasy-jaxrs-2.3.5.Final/lib/jbosscache-core-3.2.5.GA.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../resteasy-jaxrs-2.3.5.Final/lib/jcip-annotations-1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../resteasy-jaxrs-2.3.5.Final/lib/jettison-1.3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../resteasy-jaxrs-2.3.5.Final/lib/jgroups-2.6.13.GA.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../resteasy-jaxrs-2.3.5.Final/lib/jsr250-api-1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../resteasy-jaxrs-2.3.5.Final/lib/mail-1.4.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../resteasy-jaxrs-2.3.5.Final/lib/oauth-20100527.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../resteasy-jaxrs-2.3.5.Final/lib/oauth-provider-20100527.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../resteasy-jaxrs-2.3.5.Final/lib/persistence-api-1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../resteasy-jaxrs-2.3.5.Final/lib/resteasy-atom-provider-2.3.5.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../resteasy-jaxrs-2.3.5.Final/lib/resteasy-cache-core-2.3.5.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../resteasy-jaxrs-2.3.5.Final/lib/resteasy-cdi-2.3.5.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../resteasy-jaxrs-2.3.5.Final/lib/resteasy-crypto-2.3.5.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../resteasy-jaxrs-2.3.5.Final/lib/resteasy-fastinfoset-provider-2.3.5.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../resteasy-jaxrs-2.3.5.Final/lib/resteasy-guice-2.3.5.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../resteasy-jaxrs-2.3.5.Final/lib/resteasy-jackson-provider-2.3.5.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../resteasy-jaxrs-2.3.5.Final/lib/resteasy-jaxb-provider-2.3.5.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../resteasy-jaxrs-2.3.5.Final/lib/resteasy-jaxrs-2.3.5.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../resteasy-jaxrs-2.3.5.Final/lib/resteasy-jettison-provider-2.3.5.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../resteasy-jaxrs-2.3.5.Final/lib/resteasy-jsapi-2.3.5.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../resteasy-jaxrs-2.3.5.Final/lib/resteasy-links-2.3.5.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../resteasy-jaxrs-2.3.5.Final/lib/resteasy-multipart-provider-2.3.5.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../resteasy-jaxrs-2.3.5.Final/lib/resteasy-oauth-2.3.5.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../resteasy-jaxrs-2.3.5.Final/lib/resteasy-spring-2.3.5.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../resteasy-jaxrs-2.3.5.Final/lib/resteasy-yaml-provider-2.3.5.Final.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../resteasy-jaxrs-2.3.5.Final/lib/scannotation-1.0.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../resteasy-jaxrs-2.3.5.Final/lib/snakeyaml-1.8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../resteasy-jaxrs-2.3.5.Final/lib/spring-aop-3.0.3.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../resteasy-jaxrs-2.3.5.Final/lib/spring-asm-3.0.3.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../resteasy-jaxrs-2.3.5.Final/lib/spring-beans-3.0.3.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../resteasy-jaxrs-2.3.5.Final/lib/spring-context-3.0.3.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../resteasy-jaxrs-2.3.5.Final/lib/spring-context-support-3.0.3.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../resteasy-jaxrs-2.3.5.Final/lib/spring-core-3.0.3.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../resteasy-jaxrs-2.3.5.Final/lib/spring-expression-3.0.3.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../resteasy-jaxrs-2.3.5.Final/lib/spring-web-3.0.3.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../resteasy-jaxrs-2.3.5.Final/lib/spring-webmvc-3.0.3.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../resteasy-jaxrs-2.3.5.Final/lib/stax-api-1.0-2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

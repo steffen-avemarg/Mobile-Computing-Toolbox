@@ -78,11 +78,18 @@ public class MainActivity extends Activity
 	@OptionsItem
 	public boolean switchToTweenExample()
 	{
-		Intent i = new Intent( this, TweenExample_.class);
-		startActivity( i );
-
-		return true;
+		return switchTo( TweenExample_.class );
 	}
 
+	@OptionsItem
+	public boolean switchToDrawExample()
+	{
+		return switchTo( RegularViewUpdateExample_.class );
+	}
 
+	@OptionsItem
+	public boolean switchToCameraAPIExample()
+	{
+		return switchTo( MyCameraActivity.class );
+	}
 }

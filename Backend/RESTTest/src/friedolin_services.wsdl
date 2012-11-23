@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions targetNamespace="https://friedolin.uni-jena.de/qisserver/services/dbinterface"
+				  xmlns:apachesoap="http://xml.apache.org/xml-soap"
+				  xmlns:impl="https://friedolin.uni-jena.de/qisserver/services/dbinterface"
+				  xmlns:intf="https://friedolin.uni-jena.de/qisserver/services/dbinterface"
+				  xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/"
+				  xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsdlsoap="http://schemas.xmlsoap.org/wsdl/soap/"
+				  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<!--WSDL created by Apache Axis version: 1.3
+	Built on Oct 05, 2005 (05:23:37 EDT)-->
+
+	<wsdl:message name="getDataByParamsRequest1">
+
+		<wsdl:part name="strName" type="soapenc:string">
+
+		</wsdl:part>
+
+		<wsdl:part name="strID" type="soapenc:string">
+
+		</wsdl:part>
+
+		<wsdl:part name="xmlParams" type="soapenc:string">
+
+		</wsdl:part>
+
+	</wsdl:message>
+
+	<wsdl:message name="getDataXMLResponse">
+
+		<wsdl:part name="getDataXMLReturn" type="soapenc:string">
+
+		</wsdl:part>
+
+	</wsdl:message>
+
+	<wsdl:message name="getDataSearchResponse">
+
+		<wsdl:part name="getDataSearchReturn" type="soapenc:string">
+
+		</wsdl:part>
+
+	</wsdl:message>
+
+	<wsdl:message name="processRequest">
+
+		<wsdl:part name="system" type="soapenc:string">
+
+		</wsdl:part>
+
+		<wsdl:part name="body" type="soapenc:string">
+
+		</wsdl:part>
+
+	</wsdl:message>
+
+	<wsdl:message name="processResponse1">
+
+		<wsdl:part name="processReturn" type="soapenc:string">
+
+		</wsdl:part>
+
+	</wsdl:message>
+
+	<wsdl:message name="getDataByParamsRequest">
+
+		<wsdl:part name="strName" type="soapenc:string">
+
+		</wsdl:part>
+
+		<wsdl:part name="xmlParams" type="soapenc:string">
+
+		</wsdl:part>
+
+	</wsdl:message>
+
+	<wsdl:message name="getDataByParamsResponse">
+
+		<wsdl:part name="getDataByParamsReturn" type="soapenc:string">
+
+		</wsdl:part>
+
+	</wsdl:message>
+
+	<wsdl:message name="getDataByParamsResponse1">
+
+		<wsdl:part name="getDataByParamsReturn" type="soapenc:string">
+
+		</wsdl:part>
+
+	</wsdl:message>
+
+	<wsdl:message name="getDataResponse">
+
+		<wsdl:part name="getDataReturn" type="soapenc:string">
+
+		</wsdl:part>
+
+	</wsdl:message>
+
+	<wsdl:message name="getDataXMLByAuthUserResponse">
+
+		<wsdl:part name="getDataXMLByAuthUserReturn" type="soapenc:string">
+
+		</wsdl:part>
+
+	</wsdl:message>
+
+	<wsdl:message name="processRequest1">
+
+		<wsdl:part name="system" type="soapenc:string">
+
+		</wsdl:part>
+
+		<wsdl:part name="user" type="soapenc:string">
+
+		</wsdl:part>
+
+		<wsdl:part name="pass" type="soapenc:string">
+
+		</wsdl:part>
+
+		<wsdl:part name="body" type="soapenc:string">
+
+		</wsdl:part>
+
+	</wsdl:message>
+
+	<wsdl:message name="getDataRequest">
+
+		<wsdl:part name="strName" type="soapenc:string">
+
+		</wsdl:part>
+
+		<wsdl:part name="strID" type="soapenc:string">
+
+		</wsdl:part>
+
+	</wsdl:message>
+
+	<wsdl:message name="getDataXMLByAuthUserRequest">
+
+		<wsdl:part name="xmlParams" type="soapenc:string">
+
+		</wsdl:part>
+
+	</wsdl:message>
+
+	<wsdl:message name="SOAPDataImporterResponse">
+
+		<wsdl:part name="SOAPDataImporterReturn" type="soapenc:string">
+
+		</wsdl:part>
+
+	</wsdl:message>
+
+	<wsdl:message name="getDataXMLRequest">
+
+		<wsdl:part name="xmlParams" type="soapenc:string">
+
+		</wsdl:part>
+
+	</wsdl:message>
+
+	<wsdl:message name="getDataSearchRequest">
+
+		<wsdl:part name="elParams" type="soapenc:string">
+
+		</wsdl:part>
+
+	</wsdl:message>
+
+	<wsdl:message name="processResponse">
+
+		<wsdl:part name="processReturn" type="soapenc:string">
+
+		</wsdl:part>
+
+	</wsdl:message>
+
+	<wsdl:message name="SOAPDataImporterRequest">
+
+		<wsdl:part name="strXMLStructure" type="soapenc:string">
+
+		</wsdl:part>
+
+		<wsdl:part name="strUser" type="soapenc:string">
+
+		</wsdl:part>
+
+		<wsdl:part name="strPassword" type="soapenc:string">
+
+		</wsdl:part>
+
+	</wsdl:message>
+
+	<wsdl:portType name="DBInterface">
+
+		<wsdl:operation name="process" parameterOrder="system body">
+
+			<wsdl:input message="impl:processRequest" name="processRequest">
+
+			</wsdl:input>
+
+			<wsdl:output message="impl:processResponse" name="processResponse">
+
+			</wsdl:output>
+
+		</wsdl:operation>
+
+		<wsdl:operation name="process" parameterOrder="system user pass body">
+
+			<wsdl:input message="impl:processRequest1" name="processRequest1">
+
+			</wsdl:input>
+
+			<wsdl:output message="impl:processResponse1" name="processResponse1">
+
+			</wsdl:output>
+
+		</wsdl:operation>
+
+		<wsdl:operation name="getData" parameterOrder="strName strID">
+
+			<wsdl:input message="impl:getDataRequest" name="getDataRequest">
+
+			</wsdl:input>
+
+			<wsdl:output message="impl:getDataResponse" name="getDataResponse">
+
+			</wsdl:output>
+
+		</wsdl:operation>
+
+		<wsdl:operation name="getDataByParams" parameterOrder="strName xmlParams">
+
+			<wsdl:input message="impl:getDataByParamsRequest" name="getDataByParamsRequest">
+
+			</wsdl:input>
+
+			<wsdl:output message="impl:getDataByParamsResponse" name="getDataByParamsResponse">
+
+			</wsdl:output>
+
+		</wsdl:operation>
+
+		<wsdl:operation name="getDataByParams" parameterOrder="strName strID xmlParams">
+
+			<wsdl:input message="impl:getDataByParamsRequest1" name="getDataByParamsRequest1">
+
+			</wsdl:input>
+
+			<wsdl:output message="impl:getDataByParamsResponse1" name="getDataByParamsResponse1">
+
+			</wsdl:output>
+
+		</wsdl:operation>
+
+		<wsdl:operation name="getDataXML" parameterOrder="xmlParams">
+
+			<wsdl:input message="impl:getDataXMLRequest" name="getDataXMLRequest">
+
+			</wsdl:input>
+
+			<wsdl:output message="impl:getDataXMLResponse" name="getDataXMLResponse">
+
+			</wsdl:output>
+
+		</wsdl:operation>
+
+		<wsdl:operation name="getDataXMLByAuthUser" parameterOrder="xmlParams">
+
+			<wsdl:input message="impl:getDataXMLByAuthUserRequest" name="getDataXMLByAuthUserRequest">
+
+			</wsdl:input>
+
+			<wsdl:output message="impl:getDataXMLByAuthUserResponse" name="getDataXMLByAuthUserResponse">
+
+			</wsdl:output>
+
+		</wsdl:operation>
+
+		<wsdl:operation name="getDataSearch" parameterOrder="elParams">
+
+			<wsdl:input message="impl:getDataSearchRequest" name="getDataSearchRequest">
+
+			</wsdl:input>
+
+			<wsdl:output message="impl:getDataSearchResponse" name="getDataSearchResponse">
+
+			</wsdl:output>
+
+		</wsdl:operation>
+
+		<wsdl:operation name="SOAPDataImporter" parameterOrder="strXMLStructure strUser strPassword">
+
+			<wsdl:input message="impl:SOAPDataImporterRequest" name="SOAPDataImporterRequest">
+
+			</wsdl:input>
+
+			<wsdl:output message="impl:SOAPDataImporterResponse" name="SOAPDataImporterResponse">
+
+			</wsdl:output>
+
+		</wsdl:operation>
+
+	</wsdl:portType>
+
+	<wsdl:binding name="dbinterfaceSoapBinding" type="impl:DBInterface">
+
+		<wsdlsoap:binding style="rpc" transport="http://schemas.xmlsoap.org/soap/http"/>
+
+		<wsdl:operation name="process">
+
+			<wsdlsoap:operation soapAction=""/>
+
+			<wsdl:input name="processRequest">
+
+				<wsdlsoap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+							   namespace="http://dbinterface.xml.his.de" use="encoded"/>
+
+			</wsdl:input>
+
+			<wsdl:output name="processResponse">
+
+				<wsdlsoap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+							   namespace="https://friedolin.uni-jena.de/qisserver/services/dbinterface" use="encoded"/>
+
+			</wsdl:output>
+
+		</wsdl:operation>
+
+		<wsdl:operation name="process">
+
+			<wsdlsoap:operation soapAction=""/>
+
+			<wsdl:input name="processRequest1">
+
+				<wsdlsoap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+							   namespace="http://dbinterface.xml.his.de" use="encoded"/>
+
+			</wsdl:input>
+
+			<wsdl:output name="processResponse1">
+
+				<wsdlsoap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+							   namespace="https://friedolin.uni-jena.de/qisserver/services/dbinterface" use="encoded"/>
+
+			</wsdl:output>
+
+		</wsdl:operation>
+
+		<wsdl:operation name="getData">
+
+			<wsdlsoap:operation soapAction=""/>
+
+			<wsdl:input name="getDataRequest">
+
+				<wsdlsoap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+							   namespace="http://dbinterface.xml.his.de" use="encoded"/>
+
+			</wsdl:input>
+
+			<wsdl:output name="getDataResponse">
+
+				<wsdlsoap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+							   namespace="https://friedolin.uni-jena.de/qisserver/services/dbinterface" use="encoded"/>
+
+			</wsdl:output>
+
+		</wsdl:operation>
+
+		<wsdl:operation name="getDataByParams">
+
+			<wsdlsoap:operation soapAction=""/>
+
+			<wsdl:input name="getDataByParamsRequest">
+
+				<wsdlsoap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+							   namespace="http://dbinterface.xml.his.de" use="encoded"/>
+
+			</wsdl:input>
+
+			<wsdl:output name="getDataByParamsResponse">
+
+				<wsdlsoap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+							   namespace="https://friedolin.uni-jena.de/qisserver/services/dbinterface" use="encoded"/>
+
+			</wsdl:output>
+
+		</wsdl:operation>
+
+		<wsdl:operation name="getDataByParams">
+
+			<wsdlsoap:operation soapAction=""/>
+
+			<wsdl:input name="getDataByParamsRequest1">
+
+				<wsdlsoap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+							   namespace="http://dbinterface.xml.his.de" use="encoded"/>
+
+			</wsdl:input>
+
+			<wsdl:output name="getDataByParamsResponse1">
+
+				<wsdlsoap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+							   namespace="https://friedolin.uni-jena.de/qisserver/services/dbinterface" use="encoded"/>
+
+			</wsdl:output>
+
+		</wsdl:operation>
+
+		<wsdl:operation name="getDataXML">
+
+			<wsdlsoap:operation soapAction=""/>
+
+			<wsdl:input name="getDataXMLRequest">
+
+				<wsdlsoap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+							   namespace="http://dbinterface.xml.his.de" use="encoded"/>
+
+			</wsdl:input>
+
+			<wsdl:output name="getDataXMLResponse">
+
+				<wsdlsoap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+							   namespace="https://friedolin.uni-jena.de/qisserver/services/dbinterface" use="encoded"/>
+
+			</wsdl:output>
+
+		</wsdl:operation>
+
+		<wsdl:operation name="getDataXMLByAuthUser">
+
+			<wsdlsoap:operation soapAction=""/>
+
+			<wsdl:input name="getDataXMLByAuthUserRequest">
+
+				<wsdlsoap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+							   namespace="http://dbinterface.xml.his.de" use="encoded"/>
+
+			</wsdl:input>
+
+			<wsdl:output name="getDataXMLByAuthUserResponse">
+
+				<wsdlsoap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+							   namespace="https://friedolin.uni-jena.de/qisserver/services/dbinterface" use="encoded"/>
+
+			</wsdl:output>
+
+		</wsdl:operation>
+
+		<wsdl:operation name="getDataSearch">
+
+			<wsdlsoap:operation soapAction=""/>
+
+			<wsdl:input name="getDataSearchRequest">
+
+				<wsdlsoap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+							   namespace="http://dbinterface.xml.his.de" use="encoded"/>
+
+			</wsdl:input>
+
+			<wsdl:output name="getDataSearchResponse">
+
+				<wsdlsoap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+							   namespace="https://friedolin.uni-jena.de/qisserver/services/dbinterface" use="encoded"/>
+
+			</wsdl:output>
+
+		</wsdl:operation>
+
+		<wsdl:operation name="SOAPDataImporter">
+
+			<wsdlsoap:operation soapAction=""/>
+
+			<wsdl:input name="SOAPDataImporterRequest">
+
+				<wsdlsoap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+							   namespace="http://dbinterface.xml.his.de" use="encoded"/>
+
+			</wsdl:input>
+
+			<wsdl:output name="SOAPDataImporterResponse">
+
+				<wsdlsoap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+							   namespace="https://friedolin.uni-jena.de/qisserver/services/dbinterface" use="encoded"/>
+
+			</wsdl:output>
+
+		</wsdl:operation>
+
+	</wsdl:binding>
+
+	<wsdl:service name="DBInterfaceService">
+
+		<wsdl:port binding="impl:dbinterfaceSoapBinding" name="dbinterface">
+
+			<wsdlsoap:address location="https://friedolin.uni-jena.de/qisserver/services/dbinterface"/>
+
+		</wsdl:port>
+
+	</wsdl:service>
+
+</wsdl:definitions>

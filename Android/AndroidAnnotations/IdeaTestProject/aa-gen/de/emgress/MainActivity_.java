@@ -8,7 +8,11 @@ package de.emgress;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.*;
+import android.view.KeyEvent;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
+import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.View.OnLongClickListener;
 import android.view.ViewGroup.LayoutParams;
@@ -110,18 +114,22 @@ public final class MainActivity_
             return true;
         }
         switch (item.getItemId()) {
-            case id.switchToAccelerometerExample:
-                return switchToAccelerometerExample();
-            case id.switchToTweenExample:
-                return switchToTweenExample();
+            case id.switchToDrawExample:
+                return switchToDrawExample();
             case id.switchToViewPagerExample:
                 return switchToViewPagerExample();
-            case id.switchToCameraIntentExample:
-                return switchToCameraIntentExample();
-            case id.switchToBackgroundExample:
-                return switchToBackgroundExample();
+            case id.switchToTweenExample:
+                return switchToTweenExample();
+            case id.switchToCameraAPIExample:
+                return switchToCameraAPIExample();
+            case id.switchToAccelerometerExample:
+                return switchToAccelerometerExample();
             case id.switchToCompassExample:
                 return switchToCompassExample();
+            case id.switchToBackgroundExample:
+                return switchToBackgroundExample();
+            case id.switchToCameraIntentExample:
+                return switchToCameraIntentExample();
             default:
                 return false;
         }

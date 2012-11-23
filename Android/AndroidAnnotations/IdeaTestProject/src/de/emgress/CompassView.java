@@ -6,12 +6,13 @@ import android.graphics.Color;
 import android.graphics.Paint;
 import android.view.View;
 
-public class CompassView extends View {
-
+public class CompassView extends View
+{
     private Paint paint;
     private float position = 0;
 
-    public CompassView(Context context) {
+    public CompassView(Context context)
+	{
         super(context);
         init();
     }
@@ -38,9 +39,9 @@ public class CompassView extends View {
         canvas.drawLine(xPoint,
                 yPoint,
                 (float) (xPoint + radius
-                        * Math.sin((double) (-position) / 180 * 3.143)),
+                        * Math.sin((double) (-position) / 180 * Math.PI )),
                 (float) (yPoint - radius
-                        * Math.cos((double) (-position) / 180 * 3.143)), paint);
+                        * Math.cos((double) (-position) / 180 * Math.PI )), paint);
 
         canvas.drawText(String.valueOf(position), xPoint, yPoint, paint);
     }

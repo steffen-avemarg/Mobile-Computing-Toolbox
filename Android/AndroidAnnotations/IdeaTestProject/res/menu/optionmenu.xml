@@ -9,6 +9,13 @@
           android:title="Compass Example" />
     <item android:id="@+id/switchToCameraIntentExample"
           android:title="Camera Intent Example" />
+	<item android:id="@+id/switchToDrawExample"
+		  android:title="Regular View Update" />
+	<item android:id="@+id/	switchToCameraAPIExample"
+		  android:title="Camera API Example" />
+
+
+
 
     <item android:id="@+id/switchToViewPagerExample"
 		  android:title="View Pager"

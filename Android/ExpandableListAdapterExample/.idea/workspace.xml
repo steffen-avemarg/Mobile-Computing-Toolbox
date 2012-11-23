@@ -24,46 +24,244 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0dbe5cb-0b9b-4912-b4c3-7eb9352731f6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ExpandableListAdapterExample/ExpandableListAdapterExample.apk.res" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ExpandableListAdapterExample/ExpandableListAdapterExample.apk.unaligned" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ExpandableListAdapterExample/ExpandableListAdapterExample.apk" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ExpandableListAdapterExample/classes.dex" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ExpandableListAdapterExample/de/emgress/android/expandableadapter/BuildConfig.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ExpandableListAdapterExample/de/emgress/android/expandableadapter/ChildClass.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ExpandableListAdapterExample/de/emgress/android/expandableadapter/GroupClass.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ExpandableListAdapterExample/de/emgress/android/expandableadapter/MainActivity$MyExpandableListAdapter.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ExpandableListAdapterExample/de/emgress/android/expandableadapter/MainActivity.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ExpandableListAdapterExample/de/emgress/android/expandableadapter/R$attr.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ExpandableListAdapterExample/de/emgress/android/expandableadapter/R$drawable.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ExpandableListAdapterExample/de/emgress/android/expandableadapter/R$id.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ExpandableListAdapterExample/de/emgress/android/expandableadapter/R$layout.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ExpandableListAdapterExample/de/emgress/android/expandableadapter/R$string.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/ExpandableListAdapterExample/de/emgress/android/expandableadapter/R.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/res-cache/ExpandableListAdapterExample/drawable-hdpi/ic_launcher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/res-cache/ExpandableListAdapterExample/drawable-ldpi/ic_launcher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/res-cache/ExpandableListAdapterExample/drawable-mdpi/ic_launcher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SocketConnection/out/production/SocketConnection/SocketConnection.apk.res" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SocketConnection/out/production/SocketConnection/SocketConnection.apk.unaligned" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SocketConnection/out/production/SocketConnection/SocketConnection.apk" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SocketConnection/out/production/SocketConnection/classes.dex" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SocketConnection/out/production/SocketConnection/de/emgress/android/socketconnection/BuildConfig.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SocketConnection/out/production/SocketConnection/de/emgress/android/socketconnection/Client.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SocketConnection/out/production/SocketConnection/de/emgress/android/socketconnection/MainActivity$SocketTask.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SocketConnection/out/production/SocketConnection/de/emgress/android/socketconnection/MainActivity.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SocketConnection/out/production/SocketConnection/de/emgress/android/socketconnection/R$attr.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SocketConnection/out/production/SocketConnection/de/emgress/android/socketconnection/R$drawable.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SocketConnection/out/production/SocketConnection/de/emgress/android/socketconnection/R$layout.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SocketConnection/out/production/SocketConnection/de/emgress/android/socketconnection/R$string.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SocketConnection/out/production/SocketConnection/de/emgress/android/socketconnection/R.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SocketConnection/out/res-cache/SocketConnection/drawable-hdpi/ic_launcher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SocketConnection/out/res-cache/SocketConnection/drawable-ldpi/ic_launcher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SocketConnection/out/res-cache/SocketConnection/drawable-mdpi/ic_launcher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/menu/option_menu.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ASyncTask/bin/classes/ASyncTask.apk.res" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ASyncTask/bin/classes/ASyncTask.apk.unaligned" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ASyncTask/bin/classes/ASyncTask.apk" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ASyncTask/bin/classes/classes.dex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ASyncTask/bin/classes/de/emgress/android/asynctask/MainActivity$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ASyncTask/bin/classes/de/emgress/android/asynctask/MainActivity$MyASyncTask.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ASyncTask/bin/classes/de/emgress/android/asynctask/MainActivity.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ASyncTask/bin/classes/de/fhe/BuildConfig.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ASyncTask/bin/classes/de/fhe/R$attr.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ASyncTask/bin/classes/de/fhe/R$drawable.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ASyncTask/bin/classes/de/fhe/R$id.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ASyncTask/bin/classes/de/fhe/R$layout.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ASyncTask/bin/classes/de/fhe/R$string.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ASyncTask/bin/classes/de/fhe/R.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ASyncTask/out/res-cache/ASyncTask/drawable-hdpi/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ASyncTask/out/res-cache/ASyncTask/drawable-ldpi/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ASyncTask/out/res-cache/ASyncTask/drawable-mdpi/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ASyncTask/out/res-cache/ASyncTask/drawable-xhdpi/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AppWidget/bin/classes/AppWidget.apk.res" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AppWidget/bin/classes/AppWidget.apk.unaligned" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AppWidget/bin/classes/AppWidget.apk" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AppWidget/bin/classes/classes.dex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AppWidget/bin/classes/de/emgress/android/appwidget/MainActivity.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AppWidget/bin/classes/de/emgress/android/appwidget/MyAppWidgetProvider.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AppWidget/bin/classes/de/emgress/android/appwidget/MyConfigurationActivity.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AppWidget/bin/classes/de/fhe/BuildConfig.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AppWidget/bin/classes/de/fhe/MainActivity.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AppWidget/bin/classes/de/fhe/MyAppWidgetProvider.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AppWidget/bin/classes/de/fhe/MyConfigurationActivity.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AppWidget/bin/classes/de/fhe/R$attr.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AppWidget/bin/classes/de/fhe/R$drawable.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AppWidget/bin/classes/de/fhe/R$id.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AppWidget/bin/classes/de/fhe/R$layout.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AppWidget/bin/classes/de/fhe/R$string.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AppWidget/bin/classes/de/fhe/R$xml.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AppWidget/bin/classes/de/fhe/R.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../DragNDrop/bin/classes/DragNDrop.apk.res" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../DragNDrop/bin/classes/DragNDrop.apk.unaligned" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../DragNDrop/bin/classes/DragNDrop.apk" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../DragNDrop/bin/classes/classes.dex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../DragNDrop/bin/classes/de/emgress/android/dragndrop/Dot.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../DragNDrop/bin/classes/de/emgress/android/dragndrop/MainActivity.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../DragNDrop/bin/classes/de/fhe/BuildConfig.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../DragNDrop/bin/classes/de/fhe/Dot.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../DragNDrop/bin/classes/de/fhe/MainActivity.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../DragNDrop/bin/classes/de/fhe/R$attr.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../DragNDrop/bin/classes/de/fhe/R$drawable.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../DragNDrop/bin/classes/de/fhe/R$id.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../DragNDrop/bin/classes/de/fhe/R$layout.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../DragNDrop/bin/classes/de/fhe/R$string.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../DragNDrop/bin/classes/de/fhe/R.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FrameAnimation/out/production/FrameAnimation/FrameAnimation.apk.res" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FrameAnimation/out/production/FrameAnimation/FrameAnimation.apk.unaligned" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FrameAnimation/out/production/FrameAnimation/FrameAnimation.apk" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FrameAnimation/out/production/FrameAnimation/classes.dex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FrameAnimation/out/production/FrameAnimation/de/emgress/android/frameanimation/BuildConfig.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FrameAnimation/out/production/FrameAnimation/de/emgress/android/frameanimation/MainActivity$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FrameAnimation/out/production/FrameAnimation/de/emgress/android/frameanimation/MainActivity.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FrameAnimation/out/production/FrameAnimation/de/emgress/android/frameanimation/R$attr.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FrameAnimation/out/production/FrameAnimation/de/emgress/android/frameanimation/R$drawable.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FrameAnimation/out/production/FrameAnimation/de/emgress/android/frameanimation/R$id.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FrameAnimation/out/production/FrameAnimation/de/emgress/android/frameanimation/R$layout.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FrameAnimation/out/production/FrameAnimation/de/emgress/android/frameanimation/R$string.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FrameAnimation/out/production/FrameAnimation/de/emgress/android/frameanimation/R.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FrameAnimation/out/res-cache/FrameAnimation/drawable-hdpi/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FrameAnimation/out/res-cache/FrameAnimation/drawable-ldpi/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FrameAnimation/out/res-cache/FrameAnimation/drawable-mdpi/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LayoutAnimation/out/production/LayoutAnimation/LayoutAnimation.apk.res" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LayoutAnimation/out/production/LayoutAnimation/LayoutAnimation.apk.unaligned" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LayoutAnimation/out/production/LayoutAnimation/LayoutAnimation.apk" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LayoutAnimation/out/production/LayoutAnimation/classes.dex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LayoutAnimation/out/production/LayoutAnimation/de/emgress/android/layoutanimation/BuildConfig.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LayoutAnimation/out/production/LayoutAnimation/de/emgress/android/layoutanimation/MainActivity.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LayoutAnimation/out/production/LayoutAnimation/de/emgress/android/layoutanimation/R$anim.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LayoutAnimation/out/production/LayoutAnimation/de/emgress/android/layoutanimation/R$attr.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LayoutAnimation/out/production/LayoutAnimation/de/emgress/android/layoutanimation/R$drawable.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LayoutAnimation/out/production/LayoutAnimation/de/emgress/android/layoutanimation/R$id.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LayoutAnimation/out/production/LayoutAnimation/de/emgress/android/layoutanimation/R$layout.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LayoutAnimation/out/production/LayoutAnimation/de/emgress/android/layoutanimation/R$string.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LayoutAnimation/out/production/LayoutAnimation/de/emgress/android/layoutanimation/R.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LayoutAnimation/out/res-cache/LayoutAnimation/drawable-hdpi/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LayoutAnimation/out/res-cache/LayoutAnimation/drawable-ldpi/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LayoutAnimation/out/res-cache/LayoutAnimation/drawable-mdpi/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PropertyAnimation/out/production/PropertyAnimation/PropertyAnimation.apk.res" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PropertyAnimation/out/production/PropertyAnimation/PropertyAnimation.apk.unaligned" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PropertyAnimation/out/production/PropertyAnimation/PropertyAnimation.apk" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PropertyAnimation/out/production/PropertyAnimation/classes.dex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PropertyAnimation/out/production/PropertyAnimation/de/emgress/android/propertyanimation/BuildConfig.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PropertyAnimation/out/production/PropertyAnimation/de/emgress/android/propertyanimation/MainActivity$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PropertyAnimation/out/production/PropertyAnimation/de/emgress/android/propertyanimation/MainActivity$MyAnimatedView.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PropertyAnimation/out/production/PropertyAnimation/de/emgress/android/propertyanimation/MainActivity$MyClickListener.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PropertyAnimation/out/production/PropertyAnimation/de/emgress/android/propertyanimation/MainActivity$MyPointEvaluator.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PropertyAnimation/out/production/PropertyAnimation/de/emgress/android/propertyanimation/MainActivity.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PropertyAnimation/out/production/PropertyAnimation/de/emgress/android/propertyanimation/R$animator.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PropertyAnimation/out/production/PropertyAnimation/de/emgress/android/propertyanimation/R$attr.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PropertyAnimation/out/production/PropertyAnimation/de/emgress/android/propertyanimation/R$drawable.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PropertyAnimation/out/production/PropertyAnimation/de/emgress/android/propertyanimation/R$id.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PropertyAnimation/out/production/PropertyAnimation/de/emgress/android/propertyanimation/R$layout.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PropertyAnimation/out/production/PropertyAnimation/de/emgress/android/propertyanimation/R$string.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PropertyAnimation/out/production/PropertyAnimation/de/emgress/android/propertyanimation/R.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PropertyAnimation/out/res-cache/PropertyAnimation/drawable-hdpi/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PropertyAnimation/out/res-cache/PropertyAnimation/drawable-ldpi/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PropertyAnimation/out/res-cache/PropertyAnimation/drawable-mdpi/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RESTTemplateAndroid/libs/jackson-core-asl-1.9.8.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RESTTemplateAndroid/libs/jackson-jaxrs-1.9.8.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RESTTemplateAndroid/libs/jackson-mapper-asl-1.9.8.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RESTTemplateAndroid/libs/jackson-xc-1.9.8.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RESTTemplateAndroid/libs/spring-android-auth-1.0.0.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RESTTemplateAndroid/libs/spring-android-core-1.0.0.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RESTTemplateAndroid/libs/spring-android-rest-template-1.0.0.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RESTTemplateAndroid/res/drawable-hdpi/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RESTTemplateAndroid/res/drawable-ldpi/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RESTTemplateAndroid/res/drawable-mdpi/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SurfaceViewAnimation/out/production/SurfaceViewAnimation/SurfaceViewAnimation.apk.res" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SurfaceViewAnimation/out/production/SurfaceViewAnimation/SurfaceViewAnimation.apk.unaligned" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SurfaceViewAnimation/out/production/SurfaceViewAnimation/SurfaceViewAnimation.apk" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SurfaceViewAnimation/out/production/SurfaceViewAnimation/classes.dex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SurfaceViewAnimation/out/production/SurfaceViewAnimation/de/emgress/android/surfaceviewanimation/Bubble.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SurfaceViewAnimation/out/production/SurfaceViewAnimation/de/emgress/android/surfaceviewanimation/BubbleView$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SurfaceViewAnimation/out/production/SurfaceViewAnimation/de/emgress/android/surfaceviewanimation/BubbleView$GameLoop.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SurfaceViewAnimation/out/production/SurfaceViewAnimation/de/emgress/android/surfaceviewanimation/BubbleView.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SurfaceViewAnimation/out/production/SurfaceViewAnimation/de/emgress/android/surfaceviewanimation/BuildConfig.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SurfaceViewAnimation/out/production/SurfaceViewAnimation/de/emgress/android/surfaceviewanimation/R$attr.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SurfaceViewAnimation/out/production/SurfaceViewAnimation/de/emgress/android/surfaceviewanimation/R$drawable.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SurfaceViewAnimation/out/production/SurfaceViewAnimation/de/emgress/android/surfaceviewanimation/R$id.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SurfaceViewAnimation/out/production/SurfaceViewAnimation/de/emgress/android/surfaceviewanimation/R$layout.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SurfaceViewAnimation/out/production/SurfaceViewAnimation/de/emgress/android/surfaceviewanimation/R$string.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SurfaceViewAnimation/out/production/SurfaceViewAnimation/de/emgress/android/surfaceviewanimation/R.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SurfaceViewAnimation/out/res-cache/SurfaceViewAnimation/drawable-hdpi/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SurfaceViewAnimation/out/res-cache/SurfaceViewAnimation/drawable-ldpi/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SurfaceViewAnimation/out/res-cache/SurfaceViewAnimation/drawable-mdpi/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ViewMatrixAnimation/out/production/ViewMatrixAnimation/ViewMatrixAnimation.apk.res" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ViewMatrixAnimation/out/production/ViewMatrixAnimation/ViewMatrixAnimation.apk.unaligned" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ViewMatrixAnimation/out/production/ViewMatrixAnimation/ViewMatrixAnimation.apk" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ViewMatrixAnimation/out/production/ViewMatrixAnimation/classes.dex" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ViewMatrixAnimation/out/production/ViewMatrixAnimation/de/emgress/android/viewmatrixanimation/BuildConfig.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ViewMatrixAnimation/out/production/ViewMatrixAnimation/de/emgress/android/viewmatrixanimation/MainActivity$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ViewMatrixAnimation/out/production/ViewMatrixAnimation/de/emgress/android/viewmatrixanimation/MainActivity$MyListAnimation.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ViewMatrixAnimation/out/production/ViewMatrixAnimation/de/emgress/android/viewmatrixanimation/MainActivity.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ViewMatrixAnimation/out/production/ViewMatrixAnimation/de/emgress/android/viewmatrixanimation/R$attr.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ViewMatrixAnimation/out/production/ViewMatrixAnimation/de/emgress/android/viewmatrixanimation/R$drawable.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ViewMatrixAnimation/out/production/ViewMatrixAnimation/de/emgress/android/viewmatrixanimation/R$id.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ViewMatrixAnimation/out/production/ViewMatrixAnimation/de/emgress/android/viewmatrixanimation/R$layout.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ViewMatrixAnimation/out/production/ViewMatrixAnimation/de/emgress/android/viewmatrixanimation/R$string.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ViewMatrixAnimation/out/production/ViewMatrixAnimation/de/emgress/android/viewmatrixanimation/R.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ViewMatrixAnimation/out/res-cache/ViewMatrixAnimation/drawable-hdpi/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ViewMatrixAnimation/out/res-cache/ViewMatrixAnimation/drawable-ldpi/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ViewMatrixAnimation/out/res-cache/ViewMatrixAnimation/drawable-mdpi/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Backend/RESTTest/lib/axis.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Backend/RESTTest/lib/commons-discovery-0.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Backend/RESTTest/lib/commons-logging-1.0.4.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Backend/RESTTest/lib/jaxrpc.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Backend/RESTTest/lib/log4j-1.2.8.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Backend/RESTTest/lib/saaj.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Backend/RESTTest/lib/wsdl4j-1.5.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Backend/RESTTest/out/production/RESTTest/de/emgress/backend/rest/model/TreeElement.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Backend/RESTTest/out/production/RESTTest/de/emgress/backend/rest/resources/BaseResource.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AndroidAnnotations/IdeaTestProject/res/layout/my_camera_layout.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AndroidAnnotations/IdeaTestProject/res/layout/regular_view_update.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AndroidAnnotations/IdeaTestProject/src/de/emgress/CameraPreview.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AndroidAnnotations/IdeaTestProject/src/de/emgress/DrawView.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AndroidAnnotations/IdeaTestProject/src/de/emgress/MyCameraActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AndroidAnnotations/IdeaTestProject/src/de/emgress/RegularViewUpdateExample.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FrameAnimation/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LayoutAnimation/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RESTTemplateAndroid/AndroidManifest.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RESTTemplateAndroid/RESTTemplateAndroid.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RESTTemplateAndroid/ant.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RESTTemplateAndroid/build.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RESTTemplateAndroid/gen/de/emgress/android/resttemplate/BuildConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RESTTemplateAndroid/gen/de/emgress/android/resttemplate/R.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RESTTemplateAndroid/local.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RESTTemplateAndroid/proguard-project.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RESTTemplateAndroid/project.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RESTTemplateAndroid/res/layout/main.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RESTTemplateAndroid/res/layout/tree_list_element.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RESTTemplateAndroid/res/values/strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RESTTemplateAndroid/src/de/emgress/android/resttemplate/MainActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RESTTemplateAndroid/src/de/emgress/android/resttemplate/NetworkHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../RESTTemplateAndroid/src/de/emgress/android/resttemplate/NetworkHandlerCallback.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SurfaceViewAnimation/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ViewMatrixAnimation/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Backend/RESTTest/.idea/dictionaries/kern.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Backend/RESTTest/.idea/libraries/Apache_Axis_Apache_Axis.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Backend/RESTTest/.idea/libraries/spring_android_auth_1_0_0_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Backend/RESTTest/out/production/RESTTest/META-INF/persistence.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Backend/RESTTest/src/de/emgress/backend/friedolin/DBInterface.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Backend/RESTTest/src/de/emgress/backend/friedolin/DBInterfaceService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Backend/RESTTest/src/de/emgress/backend/friedolin/DBInterfaceServiceLocator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Backend/RESTTest/src/de/emgress/backend/friedolin/DbinterfaceSoapBindingStub.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Backend/RESTTest/src/de/emgress/backend/friedolin/friedolin_services.wsdl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Backend/RESTTest/src/de/emgress/backend/rest/model/Course.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Backend/RESTTest/src/de/emgress/backend/rest/model/Event.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Backend/RESTTest/src/de/emgress/backend/rest/model/Person.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Backend/RESTTest/src/de/emgress/backend/rest/model/Room.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Backend/RESTTest/src/de/emgress/backend/rest/model/TreeElementCourseWrapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Backend/RESTTest/src/de/emgress/backend/rest/model/constants/CourseType.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Backend/RESTTest/src/de/emgress/backend/rest/model/constants/DayOfWeek.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Backend/RESTTest/src/de/emgress/backend/rest/model/constants/EventRecurrence.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Backend/RESTTest/src/de/emgress/backend/rest/model/constants/Language.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Backend/RESTTest/src/de/emgress/backend/rest/model/constants/Title.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Backend/RESTTest/src/de/emgress/backend/rest/model/constants/TreeElementType.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../Backend/RESTTest/src/friedolin_services.wsdl" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ASyncTask/gen/de/fhe/BuildConfig.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ASyncTask/gen/de/fhe/R.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../AppWidget/gen/de/fhe/BuildConfig.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../AppWidget/gen/de/fhe/R.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DragNDrop/gen/de/fhe/BuildConfig.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../DragNDrop/gen/de/fhe/R.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Backend/RESTTest/out/artifacts/RESTTest_war_Archive/WEB-INF/lib/grizzly-servlet-webserver-1.9.36.jar" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../../Backend/RESTTest/.idea/artifacts/RESTTest_war_Archive.xml" afterPath="$PROJECT_DIR$/../../Backend/RESTTest/.idea/artifacts/mfb.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AndroidAnnotations/IdeaTestProject/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../AndroidAnnotations/IdeaTestProject/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AndroidAnnotations/IdeaTestProject/AndroidManifest.xml" afterPath="$PROJECT_DIR$/../AndroidAnnotations/IdeaTestProject/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AndroidAnnotations/IdeaTestProject/aa-gen/de/emgress/BackgroundExampleActivity_.java" afterPath="$PROJECT_DIR$/../AndroidAnnotations/IdeaTestProject/aa-gen/de/emgress/BackgroundExampleActivity_.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AndroidAnnotations/IdeaTestProject/aa-gen/de/emgress/MainActivity_.java" afterPath="$PROJECT_DIR$/../AndroidAnnotations/IdeaTestProject/aa-gen/de/emgress/MainActivity_.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AndroidAnnotations/IdeaTestProject/gen/de/emgress/R.java" afterPath="$PROJECT_DIR$/../AndroidAnnotations/IdeaTestProject/gen/de/emgress/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AndroidAnnotations/IdeaTestProject/res/menu/optionmenu.xml" afterPath="$PROJECT_DIR$/../AndroidAnnotations/IdeaTestProject/res/menu/optionmenu.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AndroidAnnotations/IdeaTestProject/src/de/emgress/AccelerometerActivity.java" afterPath="$PROJECT_DIR$/../AndroidAnnotations/IdeaTestProject/src/de/emgress/AccelerometerActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AndroidAnnotations/IdeaTestProject/src/de/emgress/CameraCallActivity.java" afterPath="$PROJECT_DIR$/../AndroidAnnotations/IdeaTestProject/src/de/emgress/CameraCallActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AndroidAnnotations/IdeaTestProject/src/de/emgress/CompassView.java" afterPath="$PROJECT_DIR$/../AndroidAnnotations/IdeaTestProject/src/de/emgress/CompassView.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AndroidAnnotations/IdeaTestProject/src/de/emgress/MainActivity.java" afterPath="$PROJECT_DIR$/../AndroidAnnotations/IdeaTestProject/src/de/emgress/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/de/emgress/android/expandableadapter/R.java" afterPath="$PROJECT_DIR$/gen/de/emgress/android/expandableadapter/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/emgress/android/expandableadapter/MainActivity.java" afterPath="$PROJECT_DIR$/src/de/emgress/android/expandableadapter/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SocketConnection/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../SocketConnection/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Fragments/src/de/emgress/android/fragments/MyListFragment.java" afterPath="$PROJECT_DIR$/../Fragments/src/de/emgress/android/fragments/MyListFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FrameAnimation/res/drawable/frame_animation.xml" afterPath="$PROJECT_DIR$/../FrameAnimation/res/drawable/frame_animation.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FrameAnimation/res/layout/main.xml" afterPath="$PROJECT_DIR$/../FrameAnimation/res/layout/main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LayoutAnimation/res/anim/list_layout_controller.xml" afterPath="$PROJECT_DIR$/../LayoutAnimation/res/anim/list_layout_controller.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PropertyAnimation/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../PropertyAnimation/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PropertyAnimation/src/de/emgress/android/propertyanimation/MainActivity.java" afterPath="$PROJECT_DIR$/../PropertyAnimation/src/de/emgress/android/propertyanimation/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ViewMatrixAnimation/src/de/emgress/android/viewmatrixanimation/MainActivity.java" afterPath="$PROJECT_DIR$/../ViewMatrixAnimation/src/de/emgress/android/viewmatrixanimation/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Backend/RESTTest/.idea/compiler.xml" afterPath="$PROJECT_DIR$/../../Backend/RESTTest/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Backend/RESTTest/.idea/libraries/RESTful_Web_Services_RESTful_Web_Services.xml" afterPath="$PROJECT_DIR$/../../Backend/RESTTest/.idea/libraries/RESTful_Web_Services_RESTful_Web_Services.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Backend/RESTTest/.idea/modules.xml" afterPath="$PROJECT_DIR$/../../Backend/RESTTest/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Backend/RESTTest/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../Backend/RESTTest/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Backend/RESTTest/RESTTest.iml" afterPath="$PROJECT_DIR$/../../Backend/RESTTest/RESTTest.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Backend/RESTTest/src/de/emgress/backend/rest/model/TreeElement.java" afterPath="$PROJECT_DIR$/../../Backend/RESTTest/src/de/emgress/backend/rest/model/TreeElement.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Backend/RESTTest/src/de/emgress/backend/rest/resources/BaseResource.java" afterPath="$PROJECT_DIR$/../../Backend/RESTTest/src/de/emgress/backend/rest/resources/BaseResource.java" />
     </list>
     <ignored path="ExpandableListAdapterExample.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -121,29 +319,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MainActivity.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/de/emgress/android/expandableadapter/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="83" column="82" selection-start="2377" selection-end="2377" vertical-scroll-proportion="0.21208227">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="option_menu.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/menu/option_menu.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="71" selection-start="243" selection-end="243" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="group_item_layout.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/group_item_layout.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="42" selection-start="273" selection-end="301" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="150" column="28" selection-start="3628" selection-end="4393" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -157,30 +339,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+      <file leaf-file-name="group_item_layout.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/res/layout/group_item_layout.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="55" selection-start="387" selection-end="387" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GroupClass.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/de/emgress/android/expandableadapter/GroupClass.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="81" selection-start="796" selection-end="796" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ChildClass.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/de/emgress/android/expandableadapter/ChildClass.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="57" selection-start="705" selection-end="705" vertical-scroll-proportion="0.0">
+            <state line="20" column="12" selection-start="784" selection-end="784" vertical-scroll-proportion="0.3875969">
               <folding />
             </state>
           </provider>
@@ -211,10 +373,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="62" />
-    <option name="y" value="39" />
-    <option name="width" value="1759" />
-    <option name="height" value="1269" />
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -223,6 +383,8 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
+    <OptionsSetting value="true" id="Undo Check Out" />
+    <OptionsSetting value="true" id="Get Latest Version" />
     <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
@@ -242,17 +404,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ExpandableListAdapterExample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -341,21 +492,37 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExpandableListAdapterExample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ExpandableListAdapterExample" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="OverrideImplement.combined" value="true" />
-    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
-    <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -408,7 +575,26 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -440,25 +626,8 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
@@ -478,6 +647,7 @@
       </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -568,6 +738,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+      <changelist id="b0dbe5cb-0b9b-4912-b4c3-7eb9352731f6" name="Default" comment="" />
       <created>1340636216331</created>
       <updated>1340636216331</updated>
     </task>
@@ -579,32 +750,36 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="62" y="39" width="1759" height="1269" extended-state="0" />
-    <editor active="false" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23413174" sideWeight="0.67104185" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23347701" sideWeight="0.67104185" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297785" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.62543553" sideWeight="0.99793386" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.62543553" sideWeight="0.99793386" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19906597" sideWeight="0.7012195" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2987805" sideWeight="0.99380285" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23922414" sideWeight="0.7012195" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29837704" sideWeight="0.99380285" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297785" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297785" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297785" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -669,38 +844,43 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="157" selection-start="765" selection-end="765" vertical-scroll-proportion="0.20134228">
+        <state line="16" column="157" selection-start="765" selection-end="765" vertical-scroll-proportion="0.20134228" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/emgress/android/expandableadapter/GroupClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="81" selection-start="796" selection-end="796" vertical-scroll-proportion="0.77792555">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="55" selection-start="387" selection-end="387" vertical-scroll-proportion="0.2393617">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/de/emgress/android/expandableadapter/ChildClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="57" selection-start="705" selection-end="705" vertical-scroll-proportion="0.0">
+        <state line="39" column="57" selection-start="705" selection-end="705" vertical-scroll-proportion="0.75581396">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/de/emgress/android/expandableadapter/GroupClass.java">
+    <entry file="file://$PROJECT_DIR$/res/menu/option_menu.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="81" selection-start="796" selection-end="796" vertical-scroll-proportion="0.0">
+        <state line="4" column="71" selection-start="243" selection-end="243" vertical-scroll-proportion="0.07751938">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/emgress/android/expandableadapter/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="150" column="28" selection-start="3628" selection-end="4393" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="55" selection-start="387" selection-end="387" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/group_item_layout.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="42" selection-start="273" selection-end="301" vertical-scroll-proportion="0.0">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -711,16 +891,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/menu/option_menu.xml">
+    <entry file="file://$PROJECT_DIR$/res/layout/group_item_layout.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="71" selection-start="243" selection-end="243" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/de/emgress/android/expandableadapter/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="83" column="82" selection-start="2377" selection-end="2377" vertical-scroll-proportion="0.21208227">
+        <state line="20" column="12" selection-start="784" selection-end="784" vertical-scroll-proportion="0.3875969">
           <folding />
         </state>
       </provider>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="org.ektorp-1.2.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/org.ektorp-1.2.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -89,7 +89,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../AndroidAnnotations/IdeaTestProject/src/de/emgress/RegularViewUpdateExample.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../FrameAnimation/.idea/workspace.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LayoutAnimation/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../SurfaceViewAnimation/.idea/workspace.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ViewMatrixAnimation/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AndroidAnnotations/IdeaTestProject/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../AndroidAnnotations/IdeaTestProject/.idea/workspace.xml" />
@@ -106,6 +105,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FrameAnimation/res/drawable/frame_animation.xml" afterPath="$PROJECT_DIR$/../FrameAnimation/res/drawable/frame_animation.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FrameAnimation/res/layout/main.xml" afterPath="$PROJECT_DIR$/../FrameAnimation/res/layout/main.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LayoutAnimation/res/anim/list_layout_controller.xml" afterPath="$PROJECT_DIR$/../LayoutAnimation/res/anim/list_layout_controller.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/de/emgress/android/propertyanimation/MainActivity.java" afterPath="$PROJECT_DIR$/src/de/emgress/android/propertyanimation/MainActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ViewMatrixAnimation/src/de/emgress/android/viewmatrixanimation/MainActivity.java" afterPath="$PROJECT_DIR$/../ViewMatrixAnimation/src/de/emgress/android/viewmatrixanimation/MainActivity.java" />
     </list>
@@ -168,7 +168,7 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/de/emgress/android/propertyanimation/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="234" column="41" selection-start="5785" selection-end="5785" vertical-scroll-proportion="0.47674417">
+            <state line="239" column="45" selection-start="5835" selection-end="5835" vertical-scroll-proportion="4.4573646">
               <folding>
                 <element signature="e#2478#2728#0" expanded="true" />
                 <element signature="e#2722#2723#0" expanded="true" />
@@ -367,6 +367,28 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -546,7 +568,11 @@
       <created>1341148401395</created>
       <updated>1341148401395</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Some small changes and doc added">
+      <created>1341156946974</created>
+      <updated>1341156946974</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -615,7 +641,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Example that shows the various aspects of the Property Animation API" />
+    <option name="LAST_COMMIT_MESSAGE" value="Some small changes and doc added" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -629,6 +655,7 @@
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="Added Example that shows the various aspects of the Property Animation API" />
+    <MESSAGE value="Some small changes and doc added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -668,7 +695,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/de/emgress/android/propertyanimation/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="234" column="41" selection-start="5785" selection-end="5785" vertical-scroll-proportion="0.47674417">
+        <state line="239" column="45" selection-start="5835" selection-end="5835" vertical-scroll-proportion="4.4573646">
           <folding>
             <element signature="e#2478#2728#0" expanded="true" />
             <element signature="e#2722#2723#0" expanded="true" />

@@ -6,7 +6,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
-import de.fhe.R;
 
 public class MyListFragment extends ListFragment 
 {

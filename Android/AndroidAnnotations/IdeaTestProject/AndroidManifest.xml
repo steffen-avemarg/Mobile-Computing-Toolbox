@@ -4,6 +4,7 @@
           android:versionCode="1"
           android:versionName="1.0">
     <uses-sdk android:minSdkVersion="15"/>
+	<uses-permission android:name="android.permission.CAMERA" />
     <application android:label="@string/app_name"
 				 android:icon="@drawable/ic_launcher"
 				 android:theme="@android:style/Theme.Holo.Light">
@@ -18,8 +19,11 @@
         <activity android:name=".ViewPagerExample_"/>
 		<activity android:name=".ViewPagerTitleExample_"/>
         <activity android:name=".CompassActivity"/>
-        <activity android:name=".CameraCallActivity_"/>
-        <activity android:name=".AccelerometerActivity"/>
+		<activity android:name=".AccelerometerActivity"/>
 		<activity android:name=".TweenExample_"/>
+		<activity android:name=".CameraCallActivity_"/>
+		<activity android:name=".RegularViewUpdateExample_"/>
+		<activity android:name=".MyCameraActivity"
+				android:screenOrientation="landscape" />
 	</application>
 </manifest>

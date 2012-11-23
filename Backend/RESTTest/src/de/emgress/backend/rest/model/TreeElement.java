@@ -1,6 +1,6 @@
 package de.emgress.backend.rest.model;
 
-import org.codehaus.jackson.annotate.JsonIgnore;
+import de.emgress.backend.rest.model.constants.TreeElementType;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -8,14 +8,17 @@ import java.util.List;
 public class TreeElement
 {
     private int id;
+	private TreeElementType type;
     private String name;
 
-    @JsonIgnore
     private List<TreeElement> children;
+	private List<TreeElementCourseWrapper> courses;
 
     public TreeElement()
     {
+		this.type = TreeElementType.NODE;
         this.children = new ArrayList<TreeElement>();
+		this.courses = new ArrayList<TreeElementCourseWrapper>();
     }
 
     public TreeElement(int id)
@@ -30,6 +33,12 @@ public class TreeElement
         this.name = name;
     }
 
+	public TreeElement(int id, TreeElementType type, String name)
+	{
+		this( id, name );
+		this.type = type;
+	}
+
     public int getId()
     {
         return id;
@@ -40,7 +49,17 @@ public class TreeElement
         this.id = id;
     }
 
-    public String getName()
+	public TreeElementType getType()
+	{
+		return type;
+	}
+
+	public void setType(TreeElementType type)
+	{
+		this.type = type;
+	}
+
+	public String getName()
     {
         return name;
     }
@@ -50,6 +69,7 @@ public class TreeElement
         this.name = name;
     }
 
+
     public List<TreeElement> getChildren() {
         return children;
     }
@@ -57,4 +77,20 @@ public class TreeElement
     public void setChildren(List<TreeElement> children) {
         this.children = children;
     }
+
+	public List<TreeElementCourseWrapper> getCourses()
+	{
+		return courses;
+	}
+
+	public void setCourses(List<TreeElementCourseWrapper> courses)
+	{
+		this.courses = courses;
+	}
+
+	@Override
+	public String toString()
+	{
+		return this.getName();
+	}
 }

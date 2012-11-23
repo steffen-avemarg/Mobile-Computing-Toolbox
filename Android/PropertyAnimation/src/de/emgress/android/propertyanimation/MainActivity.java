@@ -243,12 +243,12 @@ public class MainActivity extends Activity
 			ViewGroup mainLayout = (ViewGroup)findViewById( R.id.main_layout );
 			mainLayout.setLayoutTransition( lt );
 
-			Animator appearAnimator = lt.getAnimator( LayoutTransition.DISAPPEARING );
 			lt.setDuration( ANIMATION_DURATION );
 
-			appearAnimator.setTarget(animatedView);
-
-			appearAnimator.start();
+			if( animatedView.getVisibility() == View.VISIBLE )
+				animatedView.setVisibility( View.GONE );
+			else
+				animatedView.setVisibility( View.VISIBLE );
 		}
 
 	}

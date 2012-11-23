@@ -3,9 +3,7 @@ package de.emgress.android.expandableadapter;
 import android.app.Activity;
 import android.content.Context;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.*;
-import android.widget.AbsListView;
 import android.widget.BaseExpandableListAdapter;
 import android.widget.ExpandableListView;
 import android.widget.TextView;
@@ -34,6 +32,7 @@ public class MainActivity extends Activity
          * Init Demo Data
          */
         this.initDemoData();
+
 
         /*
          * Create Adapter and configure ListView

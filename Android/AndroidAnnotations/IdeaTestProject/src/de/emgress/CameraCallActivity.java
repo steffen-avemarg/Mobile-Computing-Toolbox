@@ -52,6 +52,7 @@ public class CameraCallActivity extends Activity
         {
             try
             {
+
                 image = getThumbnail(fileUri);
                 imageView.setImageBitmap( image );
 

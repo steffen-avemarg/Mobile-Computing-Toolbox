@@ -29,6 +29,23 @@ public class AccelerometerActivity extends Activity implements SensorEventListen
 
     }
 
+	@Override
+	protected void onResume()
+	{
+		super.onResume();
+
+		sensorManager.registerListener( this, sensorManager.getDefaultSensor( Sensor.TYPE_ACCELEROMETER ),
+				SensorManager.SENSOR_DELAY_NORMAL );
+
+	}
+
+	@Override
+	protected void onPause() {
+		super.onPause();
+
+		sensorManager.unregisterListener( this );
+	}
+
     @Override
     public void onSensorChanged(SensorEvent sensorEvent)
     {
@@ -73,20 +90,5 @@ public class AccelerometerActivity extends Activity implements SensorEventListen
     public void onAccuracyChanged(Sensor sensor, int i) {}
 
 
-    @Override
-    protected void onResume()
-    {
-        super.onResume();
 
-        sensorManager.registerListener( this, sensorManager.getDefaultSensor( Sensor.TYPE_ACCELEROMETER ),
-                SensorManager.SENSOR_DELAY_NORMAL );
-
-    }
-
-    @Override
-    protected void onPause() {
-        super.onPause();
-
-        sensorManager.unregisterListener( this );
-    }
 }

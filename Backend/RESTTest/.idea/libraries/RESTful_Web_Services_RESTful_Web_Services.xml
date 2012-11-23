@@ -4,7 +4,6 @@
       <root url="jar://$PROJECT_DIR$/lib/activation-1.1.1.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/asm-3.3.1.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/FastInfoset-1.2.12.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/grizzly-servlet-webserver-1.9.36.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/jaxb-api-2.2.4.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/jaxb-impl-2.2.4-1.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/jdom-1.0.jar!/" />

@@ -1,6 +1,7 @@
 package de.emgress.android.viewmatrixanimation;
 
 import android.app.Activity;
+import android.graphics.Camera;
 import android.graphics.Matrix;
 import android.os.Bundle;
 import android.view.View;
@@ -39,10 +40,45 @@ public class MainActivity extends Activity
 			@Override
 			public void onClick(View view)
 			{
-				lv.startAnimation( new MyListAnimation() );
+				lv.startAnimation(new MyListCameraAnimation());
 			}
 		});
     }
+
+
+	class MyListCameraAnimation extends Animation
+	{
+		float centerX, centerY;
+		Camera camera = new Camera();
+
+		@Override
+		public void initialize( int width, int height, int parentWidth, int parentHeight )
+		{
+			super.initialize( width, height, parentWidth, parentHeight );
+			centerX = width/2;
+			centerY = height/2;
+			setDuration( 2500 );
+			setFillAfter( true ); // Effect remains after animation
+			setInterpolator( new LinearInterpolator() );
+		}
+
+		@Override
+		protected void applyTransformation( float interpolatedTime, Transformation t )
+		{
+			final Matrix matrix = t.getMatrix();
+
+			camera.save();
+			camera.translate(0.0f, 0.0f, (1300 - 1300.0f * interpolatedTime));
+			camera.rotateY(360 * interpolatedTime);
+			camera.getMatrix( matrix );
+
+			matrix.preTranslate( -centerX, -centerY );
+			matrix.postTranslate( centerX, centerY );
+			camera.restore();
+
+		}
+	}
+
 
 	class MyListAnimation extends Animation
 	{
