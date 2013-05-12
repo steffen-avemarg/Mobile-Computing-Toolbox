@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ContactApplication</string>
+    <string name="add_contact_menu_entry">Add Contact</string>
+    <string name="clear_all_contacts_menu_entry">Clear All Contacts</string>
+    <string name="sort_by_lastname_menu_entry">Sort By Lastname</string>
+    <string name="edit_contact_title">Edit Contact</string>
+    <string name="lastname_label">Lastname</string>
+    <string name="placeholder_label">Placeholder</string>
+    <string name="firstname_label">Firstname</string>
+    <string name="phone_label">Phone</string>
+    <string name="cancel_label">Cancel</string>
+    <string name="save_label">Save</string>
+    <string name="mail_label">Email</string>
+</resources>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lastname_label"
+            android:id="@+id/textView"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:gravity="right"
+            android:padding="10dp" />
+
+    <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/placeholder_label"
+            android:id="@+id/edit_lastname_input"
+            android:layout_row="0"
+            android:layout_column="2"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/firstname_label"
+            android:id="@+id/textView1"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:gravity="right"
+            android:padding="10dp" />
+
+    <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/placeholder_label"
+            android:id="@+id/edit_firstname_input"
+            android:layout_row="1"
+            android:layout_column="2"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/phone_label"
+            android:id="@+id/textView2"
+            android:layout_row="3"
+            android:layout_column="0"
+            android:gravity="right"
+            android:padding="10dp"
+            android:layout_marginTop="15dp"/>
+
+    <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/placeholder_label"
+            android:id="@+id/edit_mail_input"
+            android:layout_row="4"
+            android:layout_column="2" android:inputType="textEmailAddress"/>
+
+    <Button
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel_label"
+            android:id="@+id/edit_button_cancel"
+            android:layout_row="5"
+            android:layout_column="0"
+            android:layout_marginTop="20dp"
+            android:background="@android:color/holo_red_light"
+            android:onClick="handleButtons"/>
+
+    <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/placeholder_label"
+            android:id="@+id/edit_phone_input"
+            android:layout_row="3"
+            android:layout_column="2"
+            android:layout_marginTop="15dp" android:inputType="phone"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mail_label"
+            android:id="@+id/textView3"
+            android:layout_row="4"
+            android:layout_column="0"
+            android:gravity="right"
+            android:padding="10dp"/>
+
+    <Button
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/save_label"
+            android:id="@+id/edit_button_save"
+            android:layout_row="5"
+            android:layout_column="2"
+            android:layout_gravity="right"
+            android:layout_marginTop="20dp"
+            android:background="@android:color/holo_green_dark"
+            android:onClick="handleButtons"/>
+</GridLayout>

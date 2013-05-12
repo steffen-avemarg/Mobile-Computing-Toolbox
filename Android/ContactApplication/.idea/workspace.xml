@@ -1,0 +1,1279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidConfiguredLogFilters">
+    <filters>
+      <filter>
+        <option name="logLevel" value="verbose" />
+        <option name="logMessagePattern" value="" />
+        <option name="logTagPattern" value="AppController" />
+        <option name="name" value="AppController" />
+        <option name="pid" value="" />
+      </filter>
+      <filter>
+        <option name="logLevel" value="verbose" />
+        <option name="logMessagePattern" value="" />
+        <option name="logTagPattern" value="Storage" />
+        <option name="name" value="Storage" />
+        <option name="pid" value="" />
+      </filter>
+      <filter>
+        <option name="logLevel" value="verbose" />
+        <option name="logMessagePattern" value="" />
+        <option name="logTagPattern" value="EditContactActivity" />
+        <option name="name" value="EditContactActivity" />
+        <option name="pid" value="" />
+      </filter>
+    </filters>
+  </component>
+  <component name="AndroidDesignerProfile">
+    <option name="fullProfile">
+      <profile>
+        <option name="device" value="4in WVGA (Nexus S)" />
+        <option name="deviceConfiguration" value="Portrait" />
+        <option name="targetHashString" value="android-17" />
+        <option name="theme" value="Theme.Holo.Light" />
+      </profile>
+    </option>
+    <option name="selection" value="[Full]" />
+  </component>
+  <component name="AndroidLayoutPreviewToolWindow">
+    <option name="state">
+      <GlobalState>
+        <option name="device" value="2.7in QVGA" />
+        <option name="dockMode" value="" />
+        <option name="nightMode" value="notnight" />
+        <option name="targetHashString" value="android-17" />
+        <option name="theme" value="Theme.Holo.Light" />
+        <option name="visible" value="false" />
+      </GlobalState>
+    </option>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="ERROR" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c9c85fa8-2e2f-4950-83e4-d1a09e6c65c1" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
+    <ignored path="ContactApplication.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <file path="/Dummy.txt" changelist="c9c85fa8-2e2f-4950-83e4-d1a09e6c65c1" time="1368364929922" ignored="false" />
+    <file path="/main_option_menu.xml" changelist="c9c85fa8-2e2f-4950-83e4-d1a09e6c65c1" time="1366189954781" ignored="false" />
+    <file path="/MainActivity.java" changelist="c9c85fa8-2e2f-4950-83e4-d1a09e6c65c1" time="1366641636456" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/android/lib/android.jar!/org/jetbrains/android/android.xsd" changelist="c9c85fa8-2e2f-4950-83e4-d1a09e6c65c1" time="1366188210871" ignored="false" />
+    <file path="/fragment.java" changelist="c9c85fa8-2e2f-4950-83e4-d1a09e6c65c1" time="1368363051383" ignored="false" />
+    <file path="/Contact.java" changelist="c9c85fa8-2e2f-4950-83e4-d1a09e6c65c1" time="1366625964196" ignored="false" />
+    <file path="/AndroidManifest.xml" changelist="c9c85fa8-2e2f-4950-83e4-d1a09e6c65c1" time="1366619698552" ignored="false" />
+    <file path="/EditContactActivity.java" changelist="c9c85fa8-2e2f-4950-83e4-d1a09e6c65c1" time="1366734705795" ignored="false" />
+    <file path="$PROJECT_DIR$/gen/de/fhe/mc/ContactApplication/BuildConfig.java" changelist="c9c85fa8-2e2f-4950-83e4-d1a09e6c65c1" time="1366190149812" ignored="false" />
+    <file path="/ContactAppController.java" changelist="c9c85fa8-2e2f-4950-83e4-d1a09e6c65c1" time="1366736735621" ignored="false" />
+    <file path="/StorageWrapper.java" changelist="c9c85fa8-2e2f-4950-83e4-d1a09e6c65c1" time="1366630777664" ignored="false" />
+    <file path="/ContactList.java" changelist="c9c85fa8-2e2f-4950-83e4-d1a09e6c65c1" time="1366632972627" ignored="false" />
+    <file path="/edit_contact.xml" changelist="c9c85fa8-2e2f-4950-83e4-d1a09e6c65c1" time="1366637441517" ignored="false" />
+    <file path="/contact_list_entry.xml" changelist="c9c85fa8-2e2f-4950-83e4-d1a09e6c65c1" time="1366735045035" ignored="false" />
+    <file path="/colors.xml" changelist="c9c85fa8-2e2f-4950-83e4-d1a09e6c65c1" time="1366638260261" ignored="false" />
+    <file path="/ContactListAdapter.java" changelist="c9c85fa8-2e2f-4950-83e4-d1a09e6c65c1" time="1366736602487" ignored="false" />
+    <file path="$PROJECT_DIR$/gen/de/fhe/mc/contactapp/BuildConfig.java" changelist="c9c85fa8-2e2f-4950-83e4-d1a09e6c65c1" time="1366651881161" ignored="false" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="DebuggerManager">
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <breakpoint_rules />
+    <ui_properties />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="ContactApplication" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/de/fhe/mc/contactapp/view/MainActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="55" column="50" selection-start="1657" selection-end="1657" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ContactList.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/de/fhe/mc/contactapp/model/ContactList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="63" column="33" selection-start="1556" selection-end="1573" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StorageWrapper.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/de/fhe/mc/contactapp/util/StorageWrapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="53" selection-start="412" selection-end="412" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ContactAppController.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/de/fhe/mc/contactapp/control/ContactAppController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="52" column="41" selection-start="1504" selection-end="1504" vertical-scroll-proportion="0.020604396">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/de/fhe/mc/ContactApplication/MainActivity.java" />
+        <option value="$PROJECT_DIR$/res/menu/main_option_menu.xml" />
+        <option value="$PROJECT_DIR$/src/de/fhe/mc/contactapp/MainActivity.java" />
+        <option value="$PROJECT_DIR$/src/de/fhe/mc/contactapp/EditContactActivity.java" />
+        <option value="$PROJECT_DIR$/src/de/fhe/mc/contactapp/ContactAppController.java" />
+        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/src/de/fhe/mc/contactapp/util/StorageWrapper.java" />
+        <option value="$PROJECT_DIR$/src/de/fhe/mc/contactapp/model/ContactList.java" />
+        <option value="$PROJECT_DIR$/res/values/colors.xml" />
+        <option value="$PROJECT_DIR$/src/de/fhe/mc/contactapp/model/Contact.java" />
+        <option value="$PROJECT_DIR$/res/layout/edit_contact.xml" />
+        <option value="$PROJECT_DIR$/src/de/fhe/mc/contactapp/view/EditContactActivity.java" />
+        <option value="$PROJECT_DIR$/res/layout/contact_list_entry.xml" />
+        <option value="$PROJECT_DIR$/src/de/fhe/mc/contactapp/view/ContactListAdapter.java" />
+        <option value="$PROJECT_DIR$/src/de/fhe/mc/contactapp/view/MainActivity.java" />
+        <option value="$PROJECT_DIR$/src/de/fhe/mc/contactapp/control/ContactAppController.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="5" />
+    <option name="y" value="22" />
+    <option name="width" value="1440" />
+    <option name="height" value="874" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ContactApplication" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ContactApplication" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ContactApplication" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ContactApplication" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ContactApplication" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="contactapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ContactApplication" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ContactApplication" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="contactapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ContactApplication" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ContactApplication" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="contactapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ContactApplication" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ContactApplication" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="contactapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="control" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ContactApplication" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ContactApplication" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ContactApplication" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ContactApplication" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ContactApplication" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ContactApplication" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="AndroidLayoutSelectedEditor" value="android-designer" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+  </component>
+  <component name="PublishConfig">
+    <servers>
+      <server id="99e2b928-dba9-4333-8e66-bbb429c23abb">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </server>
+    </servers>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="de.fhe.mc.contactapp.util" />
+      <recent name="de.fhe.mc.contactapp.view" />
+      <recent name="de.fhe.mc.contactapp.control" />
+      <recent name="de.fhe.mc.contactapp" />
+      <recent name="de.fhe.mc.contactapp.model" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Android Application.ContactApplication">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ContactApplication" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="ContactApplication" />
+      <option name="ACTIVITY_CLASS" value="de.fhe.mc.contactapp.view.MainActivity" />
+      <option name="MODE" value="specific_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="PREFERRED_AVD" value="Nexus_S_4.2.2_ARM" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="true" />
+      <RunnerSettings RunnerId="AndroidDebugRunner" />
+      <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Android Application.ContactApplication" />
+    </list>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c9c85fa8-2e2f-4950-83e4-d1a09e6c65c1" name="Default" comment="" />
+      <created>1366187783173</created>
+      <updated>1366187783173</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="5" y="22" width="1440" height="874" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20771144" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32948717" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27836135" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24318507" sideWeight="0.734748" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.265252" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.10473458" sideWeight="0.734748" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24964131" sideWeight="0.734748" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986537" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32878152" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="myTodoPanelSettings">
+      <value>
+        <are-packages-shown value="false" />
+        <are-modules-shown value="false" />
+        <flatten-packages value="false" />
+        <is-autoscroll-to-source value="false" />
+      </value>
+    </option>
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
+    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
+    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
+    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
+    <option name="SHORT_DIFF_HORIZONTALLY" value="true" />
+    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
+    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
+    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
+    <option name="LIMIT_HISTORY" value="true" />
+    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
+    <option name="UPDATE_FILTER_SCOPE_NAME" />
+    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
+    <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
+    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+    <option name="ACTIVE_VCS_NAME" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
+    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/de/fhe/mc/contactapp/util/StorageWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="53" selection-start="412" selection-end="412" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/menu/main_option_menu.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="57" selection-start="565" selection-end="565" vertical-scroll-proportion="0.21103896">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement />
+          <nodes>
+            <node x="" y="">raw-xlarge</node>
+            <node x="" y="">values-lt-rLT</node>
+            <node x="" y="">values-fr</node>
+            <node x="" y="">values-zu-rZA</node>
+            <node x="" y="">values-sw380dp-land</node>
+            <node x="" y="">raw-ca-xlarge</node>
+            <node x="" y="">raw-lv-xlarge</node>
+            <node x="" y="">raw-zh-rTW-xlarge</node>
+            <node x="" y="">values-da-rDK</node>
+            <node x="" y="">raw-pt-xlarge</node>
+            <node x="" y="">values-fa</node>
+            <node x="" y="">drawable-xhdpi</node>
+            <node x="" y="">drawable-sw600dp-mdpi</node>
+            <node x="" y="">values-hu-rHU</node>
+            <node x="" y="">values-mcc314</node>
+            <node x="" y="">values-mcc315</node>
+            <node x="" y="">values-mcc302-mnc660</node>
+            <node x="" y="">values-mcc316</node>
+            <node x="" y="">values-fi</node>
+            <node x="" y="">values-mcc310</node>
+            <node x="" y="">values-mcc311</node>
+            <node x="" y="">drawable-en-mdpi</node>
+            <node x="" y="">values-mcc312</node>
+            <node x="" y="">values-mcc313</node>
+            <node x="" y="">values-w600dp</node>
+            <node x="" y="">values-it-rCH</node>
+            <node x="" y="">values-ro-rRO</node>
+            <node x="" y="">values-fi-rFI</node>
+            <node x="" y="">values-en-rNZ</node>
+            <node x="" y="">values-in-rID</node>
+            <node x="" y="">drawable-nodpi</node>
+            <node x="" y="">raw-fr</node>
+            <node x="" y="">drawable-land-ldpi</node>
+            <node x="" y="">values-es-rES</node>
+            <node x="" y="">values-hr-rHR</node>
+            <node x="" y="">raw-ru-xlarge</node>
+            <node x="" y="">raw-ja-xlarge</node>
+            <node x="" y="">raw-fa</node>
+            <node x="" y="">raw-th-xlarge</node>
+            <node x="" y="">values-large</node>
+            <node x="" y="">raw-sk-xlarge</node>
+            <node x="" y="">xml-mdpi</node>
+            <node x="" y="">raw-fi</node>
+            <node x="" y="">raw-it</node>
+            <node x="" y="">res</node>
+            <node x="" y="">raw-iw</node>
+            <node x="" y="">values-zh-rTW</node>
+            <node x="" y="">values-sw720dp-w1280dp</node>
+            <node x="" y="">raw-sl-xlarge</node>
+            <node x="" y="">layout-large</node>
+            <node x="" y="">values-zh-rCN</node>
+            <node x="" y="">layout-land</node>
+            <node x="" y="">raw-ja</node>
+            <node x="" y="">values-sw600dp</node>
+            <node x="" y="">raw-hi-xlarge</node>
+            <node x="" y="">values-vi</node>
+            <node x="" y="">de</node>
+            <node x="" y="">values-uk</node>
+            <node x="" y="">raw-id</node>
+            <node x="" y="">raw-sr-xlarge</node>
+            <node x="" y="">values-w360dp</node>
+            <node x="" y="">drawable-hdpi</node>
+            <node x="" y="">values-cs-rCZ</node>
+            <node x="" y="">values-de</node>
+            <node x="" y="">values-nl-rBE</node>
+            <node x="" y="">values-da</node>
+            <node x="" y="">raw-hu</node>
+            <node x="" y="">values-el</node>
+            <node x="" y="">values-es</node>
+            <node x="" y="">raw-el-xlarge</node>
+            <node x="" y="">drawable-land-mdpi</node>
+            <node x="" y="">values-et</node>
+            <node x="" y="">values-mcc340-mnc01</node>
+            <node x="" y="">raw-lt-xlarge</node>
+            <node x="" y="">values-tl</node>
+            <node x="" y="">drawable-sw600dp-nodpi</node>
+            <node x="" y="">raw-hi</node>
+            <node x="" y="">values-tr</node>
+            <node x="" y="">raw-hr</node>
+            <node x="" y="">values-el-rGR</node>
+            <node x="" y="">raw-hu-xlarge</node>
+            <node x="" y="">values-mcc302-mnc370</node>
+            <node x="" y="">com</node>
+            <node x="" y="">raw-fa-xlarge</node>
+            <node x="" y="">raw-pt-rBR</node>
+            <node x="" y="">raw-sl</node>
+            <node x="" y="">raw-sk</node>
+            <node x="" y="">values-pt-rPT</node>
+            <node x="" y="">layout-sw720dp</node>
+            <node x="" y="">raw-cs</node>
+            <node x="" y="">values-de-rAT</node>
+            <node x="" y="">raw-es-rUS</node>
+            <node x="" y="">values-mcc450</node>
+            <node x="" y="">raw-nb-xlarge</node>
+            <node x="" y="">values-sv-rSE</node>
+            <node x="" y="">raw-ru</node>
+            <node x="" y="">raw-hr-xlarge</node>
+            <node x="" y="">values</node>
+            <node x="" y="">raw-iw-xlarge</node>
+            <node x="" y="">drawable-ldrtl-xhdpi</node>
+            <node x="" y="">javax</node>
+            <node x="" y="">mipmap-xhdpi</node>
+            <node x="" y="">raw-ro</node>
+            <node x="" y="">values-ja</node>
+            <node x="" y="">raw-rm</node>
+            <node x="" y="">values-mcc214-mnc07</node>
+            <node x="" y="">values-de-rDE</node>
+            <node x="" y="">raw-ca</node>
+            <node x="" y="">values-mcc214-mnc03</node>
+            <node x="" y="">raw-th</node>
+            <node x="" y="">values-fr-rFR</node>
+            <node x="" y="">raw-tl</node>
+            <node x="" y="">values-nl-rNL</node>
+            <node x="" y="">values-w720dp</node>
+            <node x="" y="">xml</node>
+            <node x="" y="">values-af-rZA</node>
+            <node x="" y="">values-mcc440</node>
+            <node x="" y="">values-en-rZA</node>
+            <node x="" y="">values-mcc234-mnc33</node>
+            <node x="" y="">raw-sv</node>
+            <node x="" y="">assets</node>
+            <node x="" y="">raw-bg</node>
+            <node x="" y="">values-ko</node>
+            <node x="" y="">values-de-rCH</node>
+            <node x="" y="">values-zu</node>
+            <node x="" y="">raw-da-xlarge</node>
+            <node x="" y="">raw-sr</node>
+            <node x="" y="">raw</node>
+            <node x="" y="">values-land</node>
+            <node x="" y="">drawable-sw600dp-xhdpi</node>
+            <node x="" y="">android</node>
+            <node x="" y="">raw-uk</node>
+            <node x="" y="">values-hu</node>
+            <node x="" y="">drawable-sw600dp-hdpi</node>
+            <node x="" y="">values-mcc286</node>
+            <node x="" y="">raw-ar-xlarge</node>
+            <node x="" y="">raw-es</node>
+            <node x="" y="">values-hr</node>
+            <node x="" y="">raw-pt-rPT-xlarge</node>
+            <node x="" y="">values-hi</node>
+            <node x="" y="">raw-el</node>
+            <node x="" y="">raw-cs-xlarge</node>
+            <node x="" y="">values-uk-rUA</node>
+            <node x="" y="">values-mcc450-ko</node>
+            <node x="" y="">raw-de-xlarge</node>
+            <node x="" y="">raw-tr</node>
+            <node x="" y="">raw-vi</node>
+            <node x="" y="">values-iw</node>
+            <node x="" y="">values-it</node>
+            <node x="" y="">junit</node>
+            <node x="" y="">values-in</node>
+            <node x="" y="">META-INF</node>
+            <node x="" y="">values-tl-rPH</node>
+            <node x="" y="">raw-fr-xlarge</node>
+            <node x="" y="">animator</node>
+            <node x="" y="">color</node>
+            <node x="" y="">raw-da</node>
+            <node x="" y="">java</node>
+            <node x="" y="">raw-de</node>
+            <node x="" y="">values-ca-rES</node>
+            <node x="" y="">values-mcc222-mnc10</node>
+            <node x="" y="">values-am-rET</node>
+            <node x="" y="">mipmap-xxhdpi</node>
+            <node x="" y="">drawable</node>
+            <node x="" y="">values-port-mdpi</node>
+            <node x="" y="">raw-zh-rCN-xlarge</node>
+            <node x="" y="">xml-land</node>
+            <node x="" y="">values-fr-rCH</node>
+            <node x="" y="">values-tr-rTR</node>
+            <node x="" y="">anim-land</node>
+            <node x="" y="">values-mcc260</node>
+            <node x="" y="">values-mcc262</node>
+            <node x="" y="">raw-it-xlarge</node>
+            <node x="" y="">layout-w600dp</node>
+            <node x="" y="">values-it-rIT</node>
+            <node x="" y="">raw-zh-rCN</node>
+            <node x="" y="">values-pt-rBR</node>
+            <node x="" y="">raw-nl</node>
+            <node x="" y="">values-mcc302-mnc720</node>
+            <node x="" y="">values-en-rGB</node>
+            <node x="" y="">menu</node>
+            <node x="" y="">anim-sw720dp</node>
+            <node x="" y="">values-fr-rCA</node>
+            <node x="" y="">xml-xlarge</node>
+            <node x="" y="">values-nl</node>
+            <node x="" y="">interpolator</node>
+            <node x="" y="">raw-tr-xlarge</node>
+            <node x="" y="">xml-en</node>
+            <node x="" y="">values-pl-rPL</node>
+            <node x="" y="">raw-ar</node>
+            <node x="" y="">drawable-sw720dp-nodpi</node>
+            <node x="" y="">raw-pl-xlarge</node>
+            <node x="" y="">drawable-land-hdpi</node>
+            <node x="" y="">anim</node>
+            <node x="" y="">raw-fi-xlarge</node>
+            <node x="" y="">values-fr-rBE</node>
+            <node x="" y="">values-ar-rEG</node>
+            <node x="" y="">org</node>
+            <node x="" y="">drawable-ldrtl-hdpi</node>
+            <node x="" y="">values-th-rTH</node>
+            <node x="" y="">values-h720dp</node>
+            <node x="" y="">values-w480dp</node>
+            <node x="" y="">mipmap-ldpi</node>
+            <node x="" y="">values-ms</node>
+            <node x="" y="">values-hi-rIN</node>
+            <node x="" y="">raw-pt-rPT</node>
+            <node x="" y="">raw-vi-xlarge</node>
+            <node x="" y="">values-nb</node>
+            <node x="" y="">raw-pl</node>
+            <node x="" y="">values-sw720dp</node>
+            <node x="" y="">values-en-rIE</node>
+            <node x="" y="">values-sw720dp-land</node>
+            <node x="" y="">raw-ro-xlarge</node>
+            <node x="" y="">values-mcc222-mnc01</node>
+            <node x="" y="">raw-pt</node>
+            <node x="" y="">values-en-rIN</node>
+            <node x="" y="">layout-port</node>
+            <node x="" y="">values-mcc208-mnc10</node>
+            <node x="" y="">layout-sw600dp-port</node>
+            <node x="" y="">values-sw720dp-port</node>
+            <node x="" y="">drawable-ldrtl-ldpi</node>
+            <node x="" y="">values-xlarge-land</node>
+            <node x="" y="">values-lt</node>
+            <node x="" y="">values-lv</node>
+            <node x="" y="">drawable-mdpi</node>
+            <node x="" y="">drawable-ldrtl-mdpi</node>
+            <node x="" y="">drawable-land-xhdpi</node>
+            <node x="" y="">values-sr-rRS</node>
+            <node x="" y="">raw-nl-xlarge</node>
+            <node x="" y="">raw-es-xlarge</node>
+            <node x="" y="">values-nb-rNO</node>
+            <node x="" y="">values-sw</node>
+            <node x="" y="">values-sv</node>
+            <node x="" y="">mipmap-mdpi</node>
+            <node x="" y="">values-mcc208-mnc01</node>
+            <node x="" y="">values-sr</node>
+            <node x="" y="">layout-xlarge</node>
+            <node x="" y="">values-port</node>
+            <node x="" y="">raw-ko</node>
+            <node x="" y="">values-be</node>
+            <node x="" y="">values-ru-rRU</node>
+            <node x="" y="">values-sl</node>
+            <node x="" y="">values-sk</node>
+            <node x="" y="">values-bg-rBG</node>
+            <node x="" y="">raw-en-rGB-xlarge</node>
+            <node x="" y="">values-de-rLI</node>
+            <node x="" y="">values-th</node>
+            <node x="" y="">values-ko-rKR</node>
+            <node x="" y="">values-en-rSG</node>
+            <node x="" y="">values-en-rAU</node>
+            <node x="" y="">raw-tl-xlarge</node>
+            <node x="" y="">values-bg</node>
+            <node x="" y="">values-mcc220</node>
+            <node x="" y="">raw-es-rUS-xlarge</node>
+            <node x="" y="">values-ca</node>
+            <node x="" y="">values-mcc234</node>
+            <node x="" y="">values-ru</node>
+            <node x="" y="">values-ro</node>
+            <node x="" y="">raw-uk-xlarge</node>
+            <node x="" y="">raw-ko-xlarge</node>
+            <node x="" y="">values-rm-rCH</node>
+            <node x="" y="">values-rm</node>
+            <node x="" y="">values-en-rCA</node>
+            <node x="" y="">raw-bg-xlarge</node>
+            <node x="" y="">values-sw600dp-land</node>
+            <node x="" y="">values-cs</node>
+            <node x="" y="">values-sw600dp-w960dp</node>
+            <node x="" y="">values-lv-rLV</node>
+            <node x="" y="">values-iw-rIL</node>
+            <node x="" y="">raw-id-xlarge</node>
+            <node x="" y="">values-xlarge</node>
+            <node x="" y="">drawable-en-hdpi</node>
+            <node x="" y="">values-mcc232</node>
+            <node x="" y="">values-mcc230</node>
+            <node x="" y="">layout-sw600dp</node>
+            <node x="" y="">values-mcc204</node>
+            <node x="" y="">values-ar-rIL</node>
+            <node x="" y="">raw-sv-xlarge</node>
+            <node x="" y="">values-es-rUS</node>
+            <node x="" y="">values-ja-rJP</node>
+            <node x="" y="">raw-zh-rTW</node>
+            <node x="" y="">values-sl-rSI</node>
+            <node x="" y="">values-en-rUS</node>
+            <node x="" y="">mipmap-hdpi</node>
+            <node x="" y="">values-sw-rTZ</node>
+            <node x="" y="">raw-nb</node>
+            <node x="" y="">layout</node>
+            <node x="" y="">values-vi-rVN</node>
+            <node x="" y="">values-sw380dp</node>
+            <node x="" y="">drawable-en-ldpi</node>
+            <node x="" y="">raw-lt</node>
+            <node x="" y="">values-pt</node>
+            <node x="" y="">raw-lv</node>
+            <node x="" y="">values-ms-rMY</node>
+            <node x="" y="">values-fa-rIR</node>
+            <node x="" y="">dalvik</node>
+            <node x="" y="">values-pl</node>
+            <node x="" y="">values-mcc219</node>
+            <node x="" y="">values-ar</node>
+            <node x="" y="">values-w500dp</node>
+            <node x="" y="">values-sw600dp-port</node>
+            <node x="" y="">drawable-ldpi</node>
+            <node x="" y="">values-am</node>
+            <node x="" y="">raw-en-rGB</node>
+            <node x="" y="">values-af</node>
+            <node x="" y="">values-sk-rSK</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.3776842105263158" x="1082.0" y="2458.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/de.fhe.mc.contactapp">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>de.fhe.mc.contactapp</OriginalElement>
+          <nodes>
+            <node x="5.5" y="80.0">de.fhe.mc.contactapp.view</node>
+            <node x="0.0" y="0.0">de.fhe.mc.contactapp.model</node>
+            <node x="179.0" y="155.0">de.fhe.mc.contactapp.util</node>
+            <node x="0.0" y="230.0">de.fhe.mc.contactapp.BuildConfig</node>
+            <node x="0.0" y="155.0">de.fhe.mc.contactapp.control</node>
+            <node x="152.0" y="230.0">de.fhe.mc.contactapp.Manifest</node>
+            <node x="0.0" y="305.0">de.fhe.mc.contactapp.R</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="de.fhe.mc.contactapp.view" target="de.fhe.mc.contactapp.model">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-258.0" y="-41.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/de.fhe.mc.contactapp.control.ContactAppController">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>de.fhe.mc.contactapp.control.ContactAppController</OriginalElement>
+          <nodes>
+            <node x="" y="">de.fhe.mc.contactapp.control.ContactAppController</node>
+            <node x="" y="">de.fhe.mc.contactapp.view.MainActivity</node>
+            <node x="" y="">de.fhe.mc.contactapp.view.EditContactActivity</node>
+            <node x="" y="">de.fhe.mc.contactapp.model.Contact</node>
+            <node x="" y="">de.fhe.mc.contactapp.model.ContactList</node>
+            <node x="" y="">de.fhe.mc.contactapp.util.StorageWrapper</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="166.0" y="1716.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/colors.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="37" selection-start="88" selection-end="88" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gen/de/fhe/mc/contactapp/R.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="19" selection-start="168" selection-end="168" vertical-scroll-proportion="0.10302198" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/fhe/mc/contactapp/model/Contact.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="81" selection-start="434" selection-end="434" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/edit_contact.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="72" column="42" selection-start="2678" selection-end="2678" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/fhe/mc/contactapp/view/EditContactActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="42" selection-start="1167" selection-end="1167" vertical-scroll-proportion="0.7984791">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/fhe/mc/contactapp/view/ContactListAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="36" selection-end="36" vertical-scroll-proportion="0.041322313">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/contact_list_entry.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="15" column="47" selection-start="703" selection-end="703" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/fhe/mc/contactapp/util/StorageWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="53" selection-start="412" selection-end="412" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/fhe/mc/contactapp/view/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="50" selection-start="1657" selection-end="1657" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/fhe/mc/contactapp/model/ContactList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="33" selection-start="1556" selection-end="1573" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/de/fhe/mc/contactapp/control/ContactAppController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="41" selection-start="1504" selection-end="1504" vertical-scroll-proportion="0.020604396">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Android</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>Android 4.2 Platform</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Android|ContactApplication</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>Android 4.2.2 Platform</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
+

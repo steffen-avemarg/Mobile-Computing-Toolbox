@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/add_contact_menu_entry"
+            android:id="@+id/add_contact_menu_item"
+            android:icon="@android:drawable/ic_menu_add"
+            android:showAsAction="ifRoom" />
+
+    <item android:title="@string/clear_all_contacts_menu_entry"
+            android:id="@+id/clear_all_contacts_menu_item" />
+
+    <item android:title="@string/sort_by_lastname_menu_entry"
+            android:id="@+id/sort_by_lastname_menu_item" />
+
+</menu>
