@@ -35,20 +35,6 @@ public final class CameraCallActivity_
     private void afterSetContentView_() {
         imageView = ((ImageView) findViewById(id.imageTaken));
         {
-            View view = findViewById(id.rotateLeft);
-            if (view!= null) {
-                view.setOnClickListener(new OnClickListener() {
-
-
-                    public void onClick(View view) {
-                        rotateLeft();
-                    }
-
-                }
-                );
-            }
-        }
-        {
             View view = findViewById(id.takePicture);
             if (view!= null) {
                 view.setOnClickListener(new OnClickListener() {
@@ -56,6 +42,20 @@ public final class CameraCallActivity_
 
                     public void onClick(View view) {
                         pickImage();
+                    }
+
+                }
+                );
+            }
+        }
+        {
+            View view = findViewById(id.rotateLeft);
+            if (view!= null) {
+                view.setOnClickListener(new OnClickListener() {
+
+
+                    public void onClick(View view) {
+                        rotateLeft();
                     }
 
                 }

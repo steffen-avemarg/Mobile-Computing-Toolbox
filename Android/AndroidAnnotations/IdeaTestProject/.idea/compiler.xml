@@ -19,10 +19,22 @@
       <entry name="?*.tld" />
       <entry name="?*.ftl" />
     </wildcardResourcePatterns>
-    <annotationProcessing enabled="true" useClasspath="false">
-      <processorPath value="$PROJECT_DIR$/libs/androidannotations-2.5.1.jar" />
-      <processor name="com.googlecode.androidannotations.AndroidAnnotationProcessor" options="" />
-      <processModule name="IdeaTestProject" generatedDirName="aa-gen" />
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="false">
+        <processor name="com.googlecode.androidannotations.AndroidAnnotationProcessor" />
+        <processorPath useClasspath="false">
+          <entry name="$PROJECT_DIR$/libs/androidannotations-2.5.1.jar" />
+        </processorPath>
+      </profile>
+      <profile default="false" name="Profile1" enabled="true">
+        <sourceOutputDir name="aa-gen" />
+        <outputRelativeToContentRoot value="true" />
+        <processor name="com.googlecode.androidannotations.AndroidAnnotationProcessor" />
+        <processorPath useClasspath="false">
+          <entry name="$PROJECT_DIR$/libs/androidannotations-2.5.1.jar" />
+        </processorPath>
+        <module name="IdeaTestProject" />
+      </profile>
     </annotationProcessing>
   </component>
 </project>

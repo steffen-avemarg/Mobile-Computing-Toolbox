@@ -23,7 +23,7 @@ public class CompassView extends View
         paint.setStrokeWidth(2);
         paint.setTextSize(25);
         paint.setStyle(Paint.Style.STROKE);
-        paint.setColor(Color.WHITE);
+        paint.setColor(Color.BLACK);
     }
 
     @Override

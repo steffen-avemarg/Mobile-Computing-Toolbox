@@ -116,20 +116,20 @@ public final class MainActivity_
         switch (item.getItemId()) {
             case id.switchToDrawExample:
                 return switchToDrawExample();
-            case id.switchToViewPagerExample:
-                return switchToViewPagerExample();
-            case id.switchToTweenExample:
-                return switchToTweenExample();
-            case id.switchToCameraAPIExample:
-                return switchToCameraAPIExample();
-            case id.switchToAccelerometerExample:
-                return switchToAccelerometerExample();
             case id.switchToCompassExample:
                 return switchToCompassExample();
-            case id.switchToBackgroundExample:
-                return switchToBackgroundExample();
+            case id.switchToViewPagerExample:
+                return switchToViewPagerExample();
+            case id.switchToCameraAPIExample:
+                return switchToCameraAPIExample();
             case id.switchToCameraIntentExample:
                 return switchToCameraIntentExample();
+            case id.switchToAccelerometerExample:
+                return switchToAccelerometerExample();
+            case id.switchToBackgroundExample:
+                return switchToBackgroundExample();
+            case id.switchToTweenExample:
+                return switchToTweenExample();
             default:
                 return false;
         }

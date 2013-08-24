@@ -2,7 +2,6 @@ package de.emgress.android.fragments;
 
 import android.app.Activity;
 import android.os.Bundle;
-import de.fhe.R;
 
 public class MainActivity extends Activity 
 {
